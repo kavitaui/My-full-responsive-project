@@ -1,0 +1,179 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.sign-up {
+    text-align: right;
+    margin-right: 21px;
+    text-wrap: nowrap;
+}
+
+.main-banner-area::before {
+    content: "";
+    background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.96%, #FF9F5A 99.95%);
+    z-index: -1;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}
+
+.shape-overlay::before {
+    left: 0;
+    right: 0;
+    content: "";
+    z-index:-1;
+    height: 450px;
+    position: absolute;
+    background-image: url(/Users/kavitapandey/create_react_2021/my-basic-project/vite-react-ts-eslint-prettier-editorconfig-master/src/components/Navbar/img/LandingPage-images/banner-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 300px;
+
+}
+
+.sign-up-button {
+    background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+    padding: 7px 26px;
+    border: none;
+    border-radius: 22px;
+    
+
+}
+@media screen and (max-width: 767px) {
+.nav-tabs {
+    display: inline-block;
+}
+.sign-up-button{
+    padding:2px 9px;
+    margin-left:5px;
+
+}
+.container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.main-content {
+    margin-top: 10px;
+}
+.content h1{
+    font-size: 22px;
+}
+.trusted-by{
+    margin-top:28px;
+}
+.trail-button {
+    margin-left: calc(50% - 130px);
+}
+ .owl-carousel {
+     margin: top 40px;
+ }
+ .img-fluid {
+     margin-top: 40px;
+ 
+ }
+ .shape-overlay::before{
+    top:509px;
+ }
+ .main-banner-area::before{
+    height:959px;
+ }
+
+
+
+}
+@media screen and (min-width: 767px) and (max-width: 991px){
+
+.container{
+    max-width:  897px;
+    overflow-x: hidden;
+}
+.sign-up-button {
+    padding: 2px 9px;
+    margin-left: 5px;
+
+}
+.logo {
+  
+    margin-left: 15px;
+}
+.nav-tabs {
+    display: inline-block;
+}
+  .main-banner-area::before {
+
+      height: 900px;
+
+
+
+  }
+  .content h1 {
+      font-size: 32px;
+      text-align: center;
+
+
+  }
+  .trail-button{
+    margin-left: calc(50% - 140px);
+  }
+
+ .shape-overlay::before {
+
+     top: 450px;
+
+ }
+ .main-content{
+    margin-top: 20px;
+ }
+
+ .trusted-by {
+     margin-top: 10px;
+     text-align: center;
+     margin-right: 10px;
+ }
+ .owl-carousel{
+    margin: top 32px;
+ }
+ .img-fluid{
+    margin-top:40px;
+    margin-left: 133px;
+ }
+ 
+
+
+
+}
+@media screen and (min-width: 991px) and (max-width: 1198px) {
+.shape-overlay::before {
+      
+        top: 145px;
+
+    }
+        .main-banner-area::before {
+            
+            height: 594px;
+          
+    
+    
+        }
+       
+
+
+
+.content h1 {
+    font-size: 40px;
+
+
+}
+.trusted-by {
+    margin-top: 100px;
+}
+}

@@ -1,0 +1,506 @@
+.main-content {
+    margin-top: 107px;
+
+
+}
+
+.main-container1 {
+    padding: 80px;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    margin-bottom: 18px;
+    padding: 4px 13px;
+    color: white;
+    border: none;
+
+}
+
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+
+
+
+}
+
+.start {
+    margin-top: 37px;
+    background-color: aliceblue;
+    color: #262A37;
+    padding: 10px 25px;
+}
+
+.start:hover {
+    background-color: #262A37;
+    ;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+}
+
+.trusted-by {
+    margin-top: 180px;
+}
+
+.animated-image {
+    cursor: pointer;
+    position: relative;
+
+
+
+
+
+}
+
+.animate {
+
+    animation: slide-up 2s ease-in-out;
+    transition-property: opacity, transform;
+
+
+}
+
+@keyframes slide-up {
+    from {
+
+        opacity: .5;
+        transform: translateY(40vh);
+    }
+
+    to {
+
+        opacity: 1;
+        transform: translateY(10vh);
+    }
+}
+
+.col-12.friendly-icons {
+    margin-top: 100px;
+}
+
+.boxes {
+
+    background: #F4F8FC;
+    height: 289px;
+    margin-top: 45px;
+
+
+}
+
+.icon-box::before {
+    position: relative;
+    border-radius: 50%;
+    ;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    font-size: 45px;
+    position: relative;
+    color: white;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.icon-size {
+    border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+    height: 100px;
+    width: 100px;
+    margin-top: 13px;
+    margin-left: -12px;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    margin-top: 12px;
+    margin-left: 27px;
+
+}
+
+.icon-content {
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: black;
+    font-weight: 700;
+
+}
+
+.icon-size:hover {
+    border-radius: 50%;
+
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.features-img {}
+
+.video {
+    border-radius: 10px;
+
+
+
+    width: 80%;
+    margin: 0 10%;
+
+}
+
+.phone-img {
+    margin-left: 0px;
+    overflow-x: hidden;
+}
+
+/* .features-area{
+    padding:10px;
+   } */
+.icon1 {
+
+
+
+
+
+    color: white;
+    font-size: 28px;
+    margin-left: -63px;
+    top: 0;
+}
+
+.icon1-background {
+    position: absolute;
+    background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+    margin-left: 0px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
+.download {
+    margin-top: 9px;
+    margin-left: 14px;
+}
+
+.icon2-background {
+    background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin-left: 0px;
+
+}
+
+.icon3-background {
+    background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+    border-radius: 50%;
+    height: 55px !important;
+    width: 55px !important;
+    margin-left: 0px;
+}
+
+.icon-design.boxes {
+    background: none;
+    height: auto;
+}
+
+.icon-design .icon-size {
+
+    height: 55px;
+    border-radius: 50%;
+    width: 55px;
+    margin-top: 13px;
+    margin-left: -12px;
+}
+
+.icon-design svg {
+    vertical-align: middle;
+    margin-top: -22px;
+    margin-left: 14px;
+    font-size: 25px;
+}
+
+.icon-button {
+    background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+    color: white;
+}
+
+.icon-button-relate {
+    margin-top: 45px;
+}
+
+.feature-area {
+    background-color: #F7F7FF;
+    text-align: center;
+}
+
+.feature-area span {
+    color: #ED2775;
+
+}
+
+.feature-area h2 {
+    line-height: 1.4;
+    /* max-width: 704px; */
+    font-size: 36px;
+    margin-bottom: 0;
+    font-weight: 700;
+
+}
+
+.section-title {
+    text-align: center;
+    max-width: 622px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+}
+
+.icon-design1 svg {
+    font-size: 27px;
+    color: white;
+    margin-top: 17px;
+    margin-left: 3px;
+}
+
+
+.icon-design1 .icon-size {
+    height: 60px;
+    width: 60px;
+    margin-left: 24px;
+    margin-top: 0;
+}
+
+.app-progress-img {
+    padding-right: 15px;
+}
+
+.app-progress-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.app-progress-img {
+    margin-right: 15px;
+    padding-right: 20px;
+}
+
+.trail-button {
+    background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+    color: white;
+}
+
+.app-download-inner::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(76.92deg, #C89CFF 0%, #FF54B0 52.08%, #FF9F5A 100%);
+
+    z-index: -1;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    height: 85%;
+    width: 99%;
+    border-radius: 5px;
+}
+
+.app-download-inner {
+    position: relative;
+    z-index: 1;
+
+}
+
+.app-content-area {
+    padding-left: 50px;
+    color: white;
+}
+
+a.playstore-btn {
+    position: relative;
+    border-radius: 5px;
+    display: inline-block;
+    color: #716c80;
+    background: white;
+    box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+    font-size: 14px;
+    padding-top: 12px;
+    padding-left: 60px;
+    padding-right: 31px;
+    padding-bottom: 6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.playstore-btn span {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+    color: #262A37;
+}
+
+a.applestore-btn {
+    position: relative;
+    border-radius: 5px;
+    display: inline-block !important;
+    color: #716c80;
+    background: white;
+    box-shadow: 0 7px 18px 0 rgba(107, 124, 147, 0.15);
+    font-size: 14px;
+    padding-top: 12px;
+    padding-left: 60px;
+    padding-right: 26px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.applestore-btn span {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+    color: #262A37;
+}
+
+.btn-box .playstore-btn img {
+    transform: translateY(-50%);
+    position: absolute;
+    left: -2px;
+    top: 34%;
+}
+
+.btn-box .applestore-btn img {
+    transform: translateY(-50%);
+    position: absolute;
+    left: -2px;
+    top: 34%;
+}
+
+.btn-box .applestore-btn:hover {
+    background-color: #262a37;
+    transform: translateY(-3px);
+    color: white;
+}
+
+.btn-box .playstore-btn:hover {
+    background-color: #262a37;
+    transform: translateY(-3px);
+    color: white;
+}
+
+.applestore-btn:hover span {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.playstore-btn:hover span {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.screenshot-area .bg-color .ptb-100::before {
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 55%;
+    position: absolute;
+    background-color: #262A37
+}
+
+.screenshot-area.bg-color {
+    position: relative;
+    z-index: 1;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    text-align: center;
+    max-width: 534px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+}
+
+.section-title h2 {
+    line-height: 1.4;
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+.section-title .sub-title {
+    display: block;
+    margin-bottom: 10px;
+    color: #ed2775;
+
+
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+
+.screenshot-area.bg-color::before {
+   
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    z-index: -1;
+    height: 48%;
+    position: absolute;
+    background: #262a37;
+}
+.owl-carousel{
+    display:block;
+    width:100%;
+
+}
+.software-integration-area{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.software-integration-area .sub-title{
+    display: block;
+        margin-bottom: 10px;
+        color: #ed2775;
+}
+.software-integration-area h2{
+    line-height: 1.4;
+        margin-bottom: 0;
+        font-size: 36px;
+}
+.software-integration-area p{
+    color:#716c80;
+        font-size: 14px;
+        margin-bottom: 15px;
+        line-height: 1.8;
+}
+
+
