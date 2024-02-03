@@ -1,11 +1,11 @@
+import $ from 'jquery';
 import React, { useEffect, useState } from 'react';
 import IMAGES from './Content-img/HomeContentImages/Index';
 import "./HomeContent.css";
 import IconDisplay from './IconDisplay';
+import ImageAnimation from './ImageAnimation';
 import ImageCarousel from './ImageCarousel';
 import { JSONContent } from './JSONContent';
-import ImageAnimation from './ImageAnimation';
-
 
 const HomeContent = () => {
   const [imageAnimation, setimageAnimation] = useState(false);
@@ -14,14 +14,15 @@ const HomeContent = () => {
   }
 
   useEffect(() => {
+    $(".my-mobile-img").animate({
+      'margin-top': '-50px',
+      'opacity': 1,
+    }, 2000);
 
-    setimageAnimation(true)
-    const timeoutId = setTimeout(() => {
-      setimageAnimation(false);
 
-    }, 1000);
-    return () => clearTimeout(timeoutId);
-  }, [setimageAnimation]);
+  },[])
+
+  
 
 
 
@@ -46,12 +47,12 @@ const HomeContent = () => {
                   <div className="col-lg-2 col-md-12 ">Trusted by:</div>
                     <div className="col-lg-10 col-md-12">  <ImageCarousel scrollImages="partenerImages" /></div>
                 </div>
-              </div>
+                </div>
+                <div className="shape-overlay"></div>
             </div>
             <div className="col-lg-4 col-md-12 app">
-              <div className={`${imageAnimation ? "animate" : ""}`}  >
-                <img src={IMAGES.banner1} alt='' className='img-fluid w-60 float-start animated-image'
-                /></div>
+             
+                <img src={IMAGES.banner1} className='my-mobile-img img-fluid'/>
             </div>
           </div>
         </div>
@@ -105,7 +106,7 @@ const HomeContent = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>  
 
             <div className='col-lg-6 col-md-12 col-12'>
               <div className='features-img '>
@@ -218,10 +219,89 @@ const HomeContent = () => {
             </div>
             <div className='col-lg-6 clo-md-12'>
               <ImageAnimation />
+            
             </div>
+           
           </div>
         </div>
        
+      </div>
+      <div className='pricing-area bg-gradient-color ptb-100'>
+        <div className='container'>
+          <div className='pricing-tabs'>
+            <div className='row align-items-center'>
+              <div className='col-lg-4 col-md-12 '>
+                <div className='price-section-title'>
+                  <span className='sub-title'>
+                    PRICING TABLE
+                  </span>
+                  <h2>
+                    No Hidden Charge Applied, Choose Your Plan</h2>
+                </div>
+                <nav>
+                  <div className="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button className="nav-item nav-link active" id="nav-monthly-tab" data-toggle="tab" type="button" role="tab" aria-controls="nav-monthly" aria-selected="true">Monthly</button>
+                    <button className="nav-item nav-link active" id="nav-yearly-tab" data-toggle="tab" type="button" role="tab" aria-controls="nav-yearly" aria-selected="false" tab-index="-1">Yearly</button>
+                  </div>
+                  </nav>
+              </div>
+              <div className='col-lg-8 col-md-12'>
+                <div className='row'>
+                  <div className='col-lg-6 col-md-6 col-sm-6'>
+                    <div className='single-pricing-table'>
+                      <div className='title'>
+                        <h3>Small Team</h3>
+                        <p>Powerful & awesome elements</p>
+                      </div>
+                      <span className='popular'>Most Popular</span>
+                      <div className='price'>
+                        $69
+                        <span>/year</span>
+                      </div>
+                      <button type="button" className="btn btn-primary start trail-button icon-button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                       Purchase Plan
+                      </button>
+                      <ul className='features-list'>
+                        <li>Up to 10 Website</li>
+                        <li>Lifetime free Support</li>
+                        <li>10 GB Dedicated Hosting free</li>
+                        <li>24/7 Support</li>
+                        <li>SEO Optimized</li>
+                        <li>Live Support</li>
+                      </ul>
+                  </div>
+                  </div>
+                
+                <div className='col-lg-6 col-md-6 col-sm-6'>
+                  <div className='single-pricing-table'>
+                    <div className='title'>
+                        <h3>Business</h3>
+                      <p>Powerful & awesome elements</p>
+                    </div>
+                    <span className='popular'>Most Popular</span>
+                    <div className='price'>
+                        $89
+                      <span>/year</span>
+                    </div>
+                    <button type="button" className="btn btn-primary start trail-button icon-button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                      Purchase Plan
+                    </button>
+                    <ul className='features-list'>
+                      <li>Up to 10 Website</li>
+                      <li>Lifetime free Support</li>
+                      <li>10 GB Dedicated Hosting free</li>
+                      <li>24/7 Support</li>
+                      <li>SEO Optimized</li>
+                    
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
         
 
