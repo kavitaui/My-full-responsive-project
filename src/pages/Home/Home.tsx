@@ -6,6 +6,7 @@ import { useConfig } from 'config/config'
 import useTitle from 'hooks/useTitle'
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import Footer from 'components/Footer/Footer'
 
 const Home: React.FC = () => {
   const { app } = useConfig()
@@ -23,6 +24,7 @@ const Home: React.FC = () => {
       <div className="main-banner-area">
         <Navbar />
         <HomeContent />
+        <Footer/>
       </div>
      
       

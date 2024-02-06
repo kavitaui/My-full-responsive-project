@@ -115,4 +115,7 @@ export const JSONContent = {
       color: 'linear-gradient(45deg, #6A55F8 0%, #EE6C74 100%)',
     },
   ],
+  MyCustomers: [
+   
+  ]
 }

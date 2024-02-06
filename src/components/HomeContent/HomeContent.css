@@ -596,4 +596,69 @@ a.applestore-btn {
         position: relative;
         margin-bottom:25px;
 }
+.free-trail-content::before{
+    content: '';
+        position: absolute;
+        background: linear-gradient(76.92deg,
+                #c89cff 0%,
+                #ff54b0 52.08%,
+                #ff9f5a 100%);
+    
+        z-index: -1;
+      left:0;
+      right:0;
+      top:0;
+      bottom:0;
+       
+
+       
+ 
+        border-radius: 5px;
+}
+.free-trail-content .sub-title{
+        display: block;
+            margin-bottom: 12px;
+            letter-spacing: 0.1em;
+            color: white;
+            font-weight: 600;
+
+}
+.free-trail-content{
+        text-align: center;
+            position: relative;
+            padding: 100px;
+            z-index: 1;
+}
+.free-trail-area.pb-100{
+    padding:100px;
+}
+.free-trail-content h2{
+        font-size: 36px;
+            line-height: 1.4;
+            max-width: 500px;
+            color: white;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            padding:20px;
+}
+.form-control{
+        padding: 25px;
+           
+            margin-left: 70px;
+            width: 721px;
+}
+.free-trail-form{
+    position:relative;
+    z-index:1;
+}
+button.btn.btn-primary.start.trail-button.icon-button.default-btn{
+    position: absolute;
+        top: 249px;
+            right: 182px;
+        border-radius: 5px;
+        height: 57px;
+        width: 145px;
+}
+
 

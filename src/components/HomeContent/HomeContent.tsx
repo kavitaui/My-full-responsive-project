@@ -20,42 +20,42 @@ const HomeContent = () => {
     }, 2000);
 
 
-  },[])
+  }, [])
 
-  
+
 
 
 
   return (
     <>
-     
+
       <div className="contianer main-container1" >
         <div className="main-content">
-         <div className="col-12 justify-content-md-centre">
-          <div className="row">
-            <div className="col-lg-8 col-md-12 main-content">
-              <button type="button" className="btn btn-primary trail-button" data-toggle="button" aria-pressed="false" autocomplete="off">
-                #Get your 14 days free trail
-              </button>
-              <div className="content"><h1>The Revolutionary App That
-                Makes Your Life Easier Than Others Apps</h1></div>
-              <button type="button" className="btn btn-primary start trail-button" data-toggle="button" aria-pressed="false" autocomplete="off">
-                Start Free Trail
-              </button>
-              <div className="trusted-by">
-                <div className="row  justify-content-center ">
-                  <div className="col-lg-2 col-md-12 ">Trusted by:</div>
+          <div className="col-12 justify-content-md-centre">
+            <div className="row">
+              <div className="col-lg-8 col-md-12 main-content">
+                <button type="button" className="btn btn-primary trail-button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                  #Get your 14 days free trail
+                </button>
+                <div className="content"><h1>The Revolutionary App That
+                  Makes Your Life Easier Than Others Apps</h1></div>
+                <button type="button" className="btn btn-primary start trail-button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                  Start Free Trail
+                </button>
+                <div className="trusted-by">
+                  <div className="row  justify-content-center ">
+                    <div className="col-lg-2 col-md-12 ">Trusted by:</div>
                     <div className="col-lg-10 col-md-12">  <ImageCarousel scrollImages="partenerImages" /></div>
-                </div>
+                  </div>
                 </div>
                 <div className="shape-overlay"></div>
-            </div>
-            <div className="col-lg-4 col-md-12 app">
-             
-                <img src={IMAGES.banner1} className='my-mobile-img img-fluid'/>
+              </div>
+              <div className="col-lg-4 col-md-12 app">
+
+                <img src={IMAGES.banner1} className='my-mobile-img img-fluid' />
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
       <div >
@@ -106,7 +106,7 @@ const HomeContent = () => {
                   </div>
                 </div>
               </div>
-            </div>  
+            </div>
 
             <div className='col-lg-6 col-md-12 col-12'>
               <div className='features-img '>
@@ -132,16 +132,16 @@ const HomeContent = () => {
             <IconDisplay data={JSONContent.MyFeatureItems} design="icon-design1" />
           </div>
         </div>
-        
+
       </div>
       <div className='app-progress-area ptb-100'>
-      <div className='container '>
-       
+        <div className='container '>
+
           <div className='row align-items-center'>
             <div className='col-lg-6 col-md-12 '>
               <div className='app-progress-img text-center'>
                 <img src={IMAGES.app2} alt="" className='img-fluid' />
-                </div>
+              </div>
             </div>
             <div className='col-lg-6 col-md-12 '>
               <span>APP PROGRESS</span>
@@ -166,39 +166,39 @@ const HomeContent = () => {
                 <div className='btn-box'>
                   <a href="#" className='playstore-btn' target='_blank'>
                     <img src={IMAGES.playstore} alt="" />
-                   
-                   Get It On
-                      <span> Google Play</span>
+
+                    Get It On
+                    <span> Google Play</span>
                   </a>
                   <a href="#" className='applestore-btn' target='_blank'>
                     <img src={IMAGES.applestore} alt="" />
-                 
-                     Download On The
-                      <span>Apple Store</span>
+
+                    Download On The
+                    <span>Apple Store</span>
                   </a>
                 </div>
               </div>
               <div className='col-lg-6 col-md-12'>
-                <img src ={IMAGES.app3} alt="" className='img-fluid'/>
+                <img src={IMAGES.app3} alt="" className='img-fluid' />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className='screenshot-area bg-color ptb-100'>
-         <div className='container'>
+        <div className='container'>
           <div className='section-title'>
             <span className='sub-title'>
               APP SCREENS
             </span>
             <h2>Beautifully Crafted All App Screenshots</h2>
-           
+
           </div>
           <div className='owl-carousel owl-loaded '>
             <ImageCarousel scrollImages="screenshotImages" />
-            </div>
+          </div>
         </div>
-     
+
       </div>
       <div className='software-integration-area ptb-100'>
         <div className='container'>
@@ -219,12 +219,12 @@ const HomeContent = () => {
             </div>
             <div className='col-lg-6 clo-md-12'>
               <ImageAnimation />
-            
+
             </div>
-           
+
           </div>
         </div>
-       
+
       </div>
       <div className='pricing-area bg-gradient-color ptb-100'>
         <div className='container'>
@@ -243,7 +243,7 @@ const HomeContent = () => {
                     <button className="nav-item nav-link active" id="nav-monthly-tab" data-toggle="tab" type="button" role="tab" aria-controls="nav-monthly" aria-selected="true">Monthly</button>
                     <button className="nav-item nav-link active" id="nav-yearly-tab" data-toggle="tab" type="button" role="tab" aria-controls="nav-yearly" aria-selected="false" tab-index="-1">Yearly</button>
                   </div>
-                  </nav>
+                </nav>
               </div>
               <div className='col-lg-8 col-md-12'>
                 <div className='row'>
@@ -259,7 +259,7 @@ const HomeContent = () => {
                         <span>/year</span>
                       </div>
                       <button type="button" className="btn btn-primary start trail-button icon-button" data-toggle="button" aria-pressed="false" autocomplete="off">
-                       Purchase Plan
+                        Purchase Plan
                       </button>
                       <ul className='features-list'>
                         <li>Up to 10 Website</li>
@@ -269,43 +269,76 @@ const HomeContent = () => {
                         <li>SEO Optimized</li>
                         <li>Live Support</li>
                       </ul>
+                    </div>
                   </div>
-                  </div>
-                
-                <div className='col-lg-6 col-md-6 col-sm-6'>
-                  <div className='single-pricing-table'>
-                    <div className='title'>
+
+                  <div className='col-lg-6 col-md-6 col-sm-6'>
+                    <div className='single-pricing-table'>
+                      <div className='title'>
                         <h3>Business</h3>
-                      <p>Powerful & awesome elements</p>
-                    </div>
-                    <span className='popular'>Most Popular</span>
-                    <div className='price'>
+                        <p>Powerful & awesome elements</p>
+                      </div>
+                      <span className='popular'>Most Popular</span>
+                      <div className='price'>
                         $89
-                      <span>/year</span>
+                        <span>/year</span>
+                      </div>
+                      <button type="button" className="btn btn-primary start trail-button icon-button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                        Purchase Plan
+                      </button>
+                      <ul className='features-list'>
+                        <li>Up to 10 Website</li>
+                        <li>Lifetime free Support</li>
+                        <li>10 GB Dedicated Hosting free</li>
+                        <li>24/7 Support</li>
+                        <li>SEO Optimized</li>
+
+                      </ul>
                     </div>
-                    <button type="button" className="btn btn-primary start trail-button icon-button" data-toggle="button" aria-pressed="false" autocomplete="off">
-                      Purchase Plan
-                    </button>
-                    <ul className='features-list'>
-                      <li>Up to 10 Website</li>
-                      <li>Lifetime free Support</li>
-                      <li>10 GB Dedicated Hosting free</li>
-                      <li>24/7 Support</li>
-                      <li>SEO Optimized</li>
-                    
-                    </ul>
                   </div>
+                 
                 </div>
-              </div>
-                
               </div>
             </div>
           </div>
         </div>
       </div>
-        
-
-
+      <div className='feedback-area ptb-100'>
+        <div className='contianer'>
+          <div className='section-title'>
+            <span className='sub-title'>
+              CLIENT REVIEWS
+            </span>
+            <h2>Some of Our Happy Customer Reviews About Our Products</h2>
+          </div>
+        </div>
+      </div>
+      <div className='free-trail-area pb-100'>
+        <div className='contianer'>
+          <div className='free-trail-content'>
+            <span className='sub-title'>
+              FREE TRIAL
+            </span>
+            <h2>Start Your 14 Days Free Trials Today!</h2>
+            <form className='free-trail-from'>
+             <div className="row g-3">
+              <div className="col-sm-7">
+                 <input type="text" className="form-control" placeholder="Enter Your Email Address" aria-label="City" />
+                 <button type="button" className="btn btn-primary start trail-button icon-button default-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+                 Get Started
+                  </button>
+                  
+                </div>
+                
+              </div>
+            </form>
+            <div className='shape8'>
+              <img src={IMAGES.shape7} alt=""/>
+            </div>
+             </div>
+          
+        </div>
+      </div>
     </>
   )
 }

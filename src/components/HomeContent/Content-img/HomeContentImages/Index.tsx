@@ -25,7 +25,12 @@ export { default as shape2 } from './shape2.png'
 export { default as shape7 } from './shape7.png'
 export { default as skype } from './skype.png'
 export { default as slack } from './slack.png'
+export { default as user1 } from './user1.jpg'
+export { default as user2 } from './user2.jpg'
+export { default as user3 } from './user3.jpg'
+export { default as user4 } from './user4.jpg'
 export { default as video } from './video-bg1.jpg'
+
 
 const IMAGES = {
   banner1: new URL('./banner-app1.png', import.meta.url).href,
@@ -53,5 +58,11 @@ const IMAGES = {
   gdrive: new URL('./gdrive.png', import.meta.url).href,
   logo1: new URL('./logo1.png', import.meta.url).href,
   atlassian1: new URL('./atlassian1.png', import.meta.url).href,
+  user1: new URL('./user1.jpg', import.meta.url).href,
+  user2: new URL('./user2.jpg', import.meta.url).href,
+  user3: new URL('./user3.jpg', import.meta.url).href,
+  user4: new URL('./user4.jpg', import.meta.url).href,
+  shape7: new URL('./shape7.png', import.meta.url).href,
+
 }
 export default IMAGES
