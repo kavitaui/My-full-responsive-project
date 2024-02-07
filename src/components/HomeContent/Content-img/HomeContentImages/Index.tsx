@@ -9,6 +9,7 @@ export { default as bgshape2 } from './bg-shape2.png'
 export { default as gdrive } from './gdrive.png'
 export { default as jira } from './jira.png'
 export { default as logo1 } from './logo1.png'
+export { default as logo2 } from './logo2.png'
 export { default as partner1 } from './partner1.png'
 export { default as partner2 } from './partner2.png'
 export { default as partner3 } from './partner3.png'
@@ -63,6 +64,7 @@ const IMAGES = {
   user3: new URL('./user3.jpg', import.meta.url).href,
   user4: new URL('./user4.jpg', import.meta.url).href,
   shape7: new URL('./shape7.png', import.meta.url).href,
+  logo2: new URL('./logo2.png', import.meta.url).href,
 
 }
 export default IMAGES

@@ -660,5 +660,46 @@ button.btn.btn-primary.start.trail-button.icon-button.default-btn{
         height: 57px;
         width: 145px;
 }
+.main-content .shape5{
+    position:relative;
 
+}
+.shape5{
+        position: absolute;
+          
+                /* margin-bottom: 80px; */
+                top: -87px;
+                    left: 514px;
+                    right: 19px;
+}
+.spiral {
+   
+    position: absolute;
+    animation: spiralAnimation 15s linear infinite;
+    /* Adjust duration as needed */
+}
 
+@keyframes spiralAnimation {
+    0% {
+        transform: translate(0) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(0px) rotate(360deg);
+        /* Adjust translation distance and rotation as needed */
+    }
+}
+
+.free-trail-content .shape8{
+    position:relative;
+
+}
+.shape8{
+    position:absolute;
+    position: absolute;
+        /* top: -187px; */
+        /* right: -46px; */
+        left: 276px;
+        bottom: 203px;
+        z-index: -1;
+    }

@@ -116,6 +116,42 @@ export const JSONContent = {
     },
   ],
   MyCustomers: [
-   
+    {
+      id: 1,
+      title: 'James Andy',
+      subtitle: 'Moodle Developer',
+      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
+      design: 'Responsive Design',
+      image: 'user1.jpg',
+      stars:'',
+    },
+    
+    {
+      id: 2,
+      title: 'David Warner',
+      subtitle: 'Python Developer',
+      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
+      design: 'Design Quality',
+      image: 'user2.jpg',
+      stars: '',
+    },
+    {
+      id: 3,
+      title: 'Deanna Hodges',
+      subtitle: 'Spotify Developer',
+      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
+      design: 'Theme Customization',
+      image: 'user3.jpg',
+      stars: '',
+    },
+    {
+      id: 4,
+      title: 'Londynn Vargas',
+      subtitle: 'PHP Developer',
+      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
+      design: 'Customer Support',
+      image: 'user4.jpg',
+      stars: '',
+    },
   ]
 }

@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import React, { useEffect, useState } from 'react';
+import { useSpring } from "react-spring";
 import IMAGES from './Content-img/HomeContentImages/Index';
 import "./HomeContent.css";
 import IconDisplay from './IconDisplay';
@@ -21,6 +22,9 @@ const HomeContent = () => {
 
 
   }, [])
+ 
+
+   
 
 
 
@@ -32,11 +36,18 @@ const HomeContent = () => {
       <div className="contianer main-container1" >
         <div className="main-content">
           <div className="col-12 justify-content-md-centre">
+          
             <div className="row">
               <div className="col-lg-8 col-md-12 main-content">
+                <div className='spiralAnimation shape5' >
+
+
+                  <img src={IMAGES.shape7} alt="" className='spiral' />
+                </div>
                 <button type="button" className="btn btn-primary trail-button" data-toggle="button" aria-pressed="false" autocomplete="off">
                   #Get your 14 days free trail
                 </button>
+              
                 <div className="content"><h1>The Revolutionary App That
                   Makes Your Life Easier Than Others Apps</h1></div>
                 <button type="button" className="btn btn-primary start trail-button" data-toggle="button" aria-pressed="false" autocomplete="off">
@@ -45,10 +56,13 @@ const HomeContent = () => {
                 <div className="trusted-by">
                   <div className="row  justify-content-center ">
                     <div className="col-lg-2 col-md-12 ">Trusted by:</div>
-                    <div className="col-lg-10 col-md-12">  <ImageCarousel scrollImages="partenerImages" /></div>
+                    <div className="col-lg-10 col-md-12">  <ImageCarousel data="" scrollImages="partenerImages" /></div>
                   </div>
                 </div>
-                <div className="shape-overlay"></div>
+                <div className="shape-overlay">
+                
+                </div>
+               
               </div>
               <div className="col-lg-4 col-md-12 app">
 
@@ -195,7 +209,7 @@ const HomeContent = () => {
 
           </div>
           <div className='owl-carousel owl-loaded '>
-            <ImageCarousel scrollImages="screenshotImages" />
+            <ImageCarousel data={JSONContent}  scrollImages="screenshotImages" />
           </div>
         </div>
 
@@ -311,6 +325,7 @@ const HomeContent = () => {
             </span>
             <h2>Some of Our Happy Customer Reviews About Our Products</h2>
           </div>
+          <ImageCarousel data={JSONContent.MyCustomers} scrollImages="staffImages" />
         </div>
       </div>
       <div className='free-trail-area pb-100'>
@@ -332,8 +347,10 @@ const HomeContent = () => {
                 
               </div>
             </form>
-            <div className='shape8'>
-              <img src={IMAGES.shape7} alt=""/>
+            <div className='spiralAnimation shape8' >
+             
+          
+              <img src={IMAGES.shape7} alt=""  className='spiral' />
             </div>
              </div>
           
