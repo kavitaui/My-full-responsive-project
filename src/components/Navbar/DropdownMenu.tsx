@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
-import './MyNavbarItems'
-import { MyNavBarItems } from './MyNavbarItems'
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+import './MyNavbarItems';
+import { MyNavBarItems } from './MyNavbarItems';
+import './Navbar.css';
 const DropdownMenu = () => {
   const [dropdownMenu, setDropDownMenu] = useState(-1)
   return (
@@ -14,29 +16,27 @@ const DropdownMenu = () => {
               setDropDownMenu(item.id)
             }}
           >
-            <a
+            <Link
               className="nav-link dropdown-toggle"
               data-toggle="dropdown"
               role="button"
               aria-haspopup="true"
               aria-expanded="false"
+              to={ item.path}
             >
               {item.title}
-            </a>
+            
             {item.child.length > 0 && (
               <div
-                className={`dropdown-menu ${
-                  dropdownMenu === item.id ? 'show' : ''
-                }`}
-              >
+                className='dropdown-menu'>
                 {item.child.map((child) => (
-                  <a key={child?.id} className="dropdown-item">
+                  <Link key={child?.id} className="dropdown-item" to={child.path}>
                     {' '}
                     {child.title}{' '}
-                  </a>
+                  </Link>
                 ))}
               </div>
-            )}
+              )}</Link>
           </li>
         ))}
       </ul>

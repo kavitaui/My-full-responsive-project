@@ -5,9 +5,31 @@ import $ from 'jquery'; // Import jQuery
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import OwlCarousel from 'react-owl-carousel';
+import "./HomeContent.css";
 
 const ImageCarousel = (props: { data:unknown, scrollImages: string; }) => {
-    window.jQuery = $;
+  window.jQuery = $;
+  const staffImageConfig = {
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 2,
+        nav: false
+      },
+      1000: {
+        items: 3,
+        nav: true,
+        loop: false
+      }
+    }
+  };
     const options = {
         items: 5,
         loop: true,
@@ -40,35 +62,29 @@ const ImageCarousel = (props: { data:unknown, scrollImages: string; }) => {
         </div>
       case 'staffImages':
         return <div>
-          <OwlCarousel className='owl-theme'{...options}>
+          <OwlCarousel className='owl-theme' {...staffImageConfig}  >
             {props?.data.map((item: any) => (
-              <div className='container'>
-                <div className='col-12'>
-                  <div className='row'>
-                    <div className='col-lg-4'>
-                      <div className='col-12'>
-                        <div className='row'>
-                          <div className='col-4'>
-                            <div className='item' >
-
-                              <img src={'/src/components/HomeContent/Content-img/HomeContentImages/' + item.image} alt="" />
-                            </div>
-                          </div>
-                          <div className='col-8'>
-                            <h4>{item.title}</h4> 
-                            {item.subtitle}
-                          </div>
-                        </div>
-
-
-                      </div>
-
-                    </div>
-                  </div>
                   
+              <div className='col-12 single-feedback-box'>
+                <div className='row box-shadow '>
+                          <div className='col-4 '>
+                           
+
+                    <img src={'/src/components/HomeContent/Content-img/HomeContentImages/' + item.image} alt="" className='feedback-img'/>
+                            
+                          </div>
+                          <div className='col-8 feedback-content'>
+                            <h4>{item.title}</h4> 
+                          <span>{item.subtitle}</span> 
+                        
+                  </div>
+                  <p>{item.para}</p>
                 </div>
-          
-              </div>  
+                  
+              </div>
+                    
+             
+              
             ))
              
             }

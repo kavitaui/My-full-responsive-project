@@ -135,17 +135,9 @@ export const JSONContent = {
       image: 'user2.jpg',
       stars: '',
     },
+  
     {
       id: 3,
-      title: 'Deanna Hodges',
-      subtitle: 'Spotify Developer',
-      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
-      design: 'Theme Customization',
-      image: 'user3.jpg',
-      stars: '',
-    },
-    {
-      id: 4,
       title: 'Londynn Vargas',
       subtitle: 'PHP Developer',
       para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
@@ -153,5 +145,71 @@ export const JSONContent = {
       image: 'user4.jpg',
       stars: '',
     },
-  ]
+    {
+      id: 4,
+      title: 'James Andy',
+      subtitle: 'Moodle Developer',
+      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
+      design: 'Responsive Design',
+      image: 'user1.jpg',
+      stars: '',
+    },
+    {
+      id: 6,
+      title: 'David Warner',
+      subtitle: 'Python Developer',
+      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
+      design: 'Design Quality',
+      image: 'user2.jpg',
+      stars: '',
+    },
+
+    {
+      id: 7,
+      title: 'Londynn Vargas',
+      subtitle: 'PHP Developer',
+      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
+      design: 'Customer Support',
+      image: 'user4.jpg',
+      stars: '',
+    },
+    {
+      id: 8,
+      title: 'Londynn Vargas',
+      subtitle: 'PHP Developer',
+      para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry  standard dummy text ever since the 1500s, when an unknown printer took a galley of type.',
+      design: 'Customer Support',
+      image: 'user4.jpg',
+      stars: '',
+    },
+  ],
+  myContact: [
+    {
+    id: 1 ,
+      image:'RiCustomerService2Fill',
+    phoneno1: '(+321) 895-980 008',
+    phoneno2: '(+321) 895-980 008'
+
+    },
+    {
+      id: 2,
+      image:'RiEarthLine',
+      phoneno1 : 'hello@pakap.com',
+      phoneno2: 'info@pakap.com'
+
+    },
+    {
+      id: 3,
+      image:'RiMapPin2Line',
+      phoneno1: '121 King St, Melbourne VIC',
+      phoneno2: '3000, Australia.'
+
+    },
+    
+    
+  ] 
+    
+  
+
+  
 }

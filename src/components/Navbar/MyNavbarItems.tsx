@@ -2,76 +2,76 @@ export const MyNavBarItems = [
   {
     id: 1,
     title: 'Home',
-    path: './',
+    path: '/',
 
     child: [
       {
         id: 1,
         title: 'Home Demo-1',
-        path: './Home Demo-1',
+        path: '/homedemo1',
       },
       {
         id: 2,
         title: 'Home Demo-2',
-        path: './Home Demo-2',
+        path: '/homedemo2',
       },
       {
         id: 3,
         title: 'Home Demo-3',
-        path: './Home Demo-3',
+        path: '/homedemo3',
       },
       {
         id: 4,
         title: 'Home Demo-4',
-        path: './Home Demo-4',
+        path: '/homedemo4',
       },
       {
         id: 5,
         title: 'Home Demo-5',
-        path: './Home Demo-5',
+        path: '/homedemo5',
       },
       {
         id: 6,
         title: 'Home Demo-6',
-        path: './Home Demo-6',
+        path: '/homedemo6',
       },
       {
         id: 7,
         title: 'Home Demo-7',
-        path: './Home Demo-7',
+        path: '/Home Demo7',
       },
       {
         id: 8,
         title: 'Home Demo-8',
-        path: './Home Demo-8',
+        path: '/Home Demo8',
       },
       {
         id: 9,
         title: 'Home Demo-9',
-        path: './Home Demo-9',
+        path: '/Home Demo9',
       },
       {
         id: 10,
         title: 'Home Demo-10',
-        path: './Home Demo-10',
+        path: '/Home Demo10',
       },
       {
         id: 11,
         title: 'Home Demo-11',
-        path: './Home Demo-11',
+        path: '/Home Demo11',
       },
     ],
   },
   {
     id: 2,
     title: 'About Us',
-    path: './About Us',
+    path: '/about',
 
     child: [
       {
         id: 1,
         title: 'About Simple',
-        path: './About Simple',
+        path: '/AboutSimple',
       },
       {
         id: 1,
@@ -88,7 +88,7 @@ export const MyNavBarItems = [
   {
     id: 3,
     title: 'Pages',
-    path: './Pages',
+    path: '/Pages',
 
     child: [
       {
@@ -211,7 +211,7 @@ export const MyNavBarItems = [
   {
     id: 4,
     title: 'Shop',
-    path: './Shop',
+    path: '/Shop',
 
     child: [
       {
@@ -239,7 +239,7 @@ export const MyNavBarItems = [
   {
     id: 5,
     title: 'Blog',
-    path: './Blog',
+    path: '/Blog',
 
     child: [
       {
@@ -269,7 +269,7 @@ export const MyNavBarItems = [
   {
     id: 6,
     title: 'Contact',
-    path: './Contact',
+    path: '/contact',
     child: [],
   },
 ]

@@ -161,3 +161,15 @@ body {
     box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
+.nav-link:hover .dropdown-menu{
+  display:block;
+
+}
+.navbar-area.red{
+  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+}
+.navbar-area.orange{
+  background: white;
+}
+
+

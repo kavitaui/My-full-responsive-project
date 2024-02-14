@@ -1,0 +1,219 @@
+.page-title-area {
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+
+    position: relative;
+
+    padding-bottom: 155px;
+    padding-top: 180px;
+}
+
+.page-title-content ul li::before {
+    margin-top: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: var(--whiteColor);
+    border-radius: 50%;
+}
+
+.divider {
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    mask-image: url(/Users/kavitapandey/create_react_2021/my-basic-project/vite-react-ts-eslint-prettier-editorconfig-master/src/pages/Contact/ContactImages/download.svg);
+    position: absolute;
+    background: white;
+}
+
+.page-title-content {
+    text-align: center;
+}
+
+.page-title-content h2 {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+a.nav-link.dropdown-toggle {
+    color: white;
+}
+
+.page-title-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.page-title-content ul li:first-child {
+    margin-left: 0;
+}
+
+.page-title-content ul li {
+    color: white;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    opacity: 0.9;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.page-title-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-title-content ul li::before {
+    margin-top: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.page-title-content ul li:last-child {
+    margin-right: 0;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form-control {
+    width: 500px !important;
+    height: 16px;
+    padding: 29px;
+    margin-left: 0px;
+    background-color: #f5f5f5;
+    border: none;
+}
+
+.form-group {
+    margin-bottom: 29px
+}
+
+.form-control1 {
+    height: auto;
+    margin-left: 64px;
+    background-color: #f5f5f5;
+    width: 1030px;
+    border: none;
+
+
+}
+
+.from-content {
+    padding-right: 72px;
+}
+
+.contact-form {
+    padding-right: 39px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    padding-top: 4px;
+}
+
+
+button.btn.btn-primary.trail-button {
+    align-items: center;
+
+    position: absolute;
+    left: 482px;
+}
+
+.pop-up {
+    margin-top: 74px;
+    margin-left: 300px;
+    font-size: 31px;
+    color: red;
+}
+
+.iframe-map {
+    padding-top: 114px;
+    ;
+}
+
+.contact-info-area.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-info-inner {
+    text-align: center;
+    position: relative;
+    padding: 100px;
+    background: linear-gradient(26.1deg, #ED2775 0%, #FF7448 100%);
+    color: white;
+}
+
+.lines {
+    
+    top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: -1;
+        height: 100%;
+        margin: auto;
+        position: absolute;
+}
+
+
+
+.lines .line:nth-child(1) {
+    margin-left: -35%;
+}
+
+.lines .line {
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+}
+.lines .line:nth-child(1)::after{
+    animation-delay:2s ;
+
+}
+.lines .line::after{
+    left: 0;
+        top: -50%;
+        width: 100%;
+        content: "";
+        height: 15vh;
+        display: block;
+        position: absolute;
+            animation: run 7s 0s infinite;
+                animation-fill-mode: forwards;
+                animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+
+}
+@keyframes run{
+    0% {
+            top: -50%;
+        }
+    
+        100% {
+            top: 110%;
+        }
+}

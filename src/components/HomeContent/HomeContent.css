@@ -126,7 +126,7 @@ svg {
     padding-bottom: 100px;
 }
 
-.features-img {}
+
 
 .video {
     border-radius: 10px;
@@ -703,3 +703,52 @@ button.btn.btn-primary.start.trail-button.icon-button.default-btn{
         bottom: 203px;
         z-index: -1;
     }
+  .single-feedback-box{
+    padding:30px;
+  
+  }
+   .box-shadow{
+    background: #F4F8FC;
+    transition:.2sec;
+   }
+
+    img.feedback-img{
+    border-radius:50%;
+    height:80px;
+    width:60px;
+   }
+
+.feedback-content{
+    padding:30px;
+        text-wrap: nowrap;
+}
+ .single-feedback-box p{
+    padding:30px;
+ }
+ .icon.bg{
+        background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+    
+ }
+ .single-contact-info-box {
+         display: inline-block;
+         background: white;
+         color: black;
+        padding: 42px;
+            padding-bottom: 50px;
+            text-align: center;
+            padding-left: 39px;
+ }
+ .contact-info-inner .single-contact-info-box .icon{
+        font-size: 35px;
+            position: relative;
+            border-radius: 50%;
+            color: white;
+       height:80px;
+       width:80px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+ }
+ .icon.bg svg{
+    margin-left:0;
+ }

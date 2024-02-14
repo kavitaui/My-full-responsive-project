@@ -5,10 +5,10 @@ import IMAGES from './img/LandingPage-images/index'
 import './MyNavbarItems'
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [isVisible, setIsVisible] = useState(false)
   return (
-    <><div className='navbar-area is-sticky'>
+    <><div className={`navbar-area is-sticky ${props.color}`}>
       <div className="container pakap-nav">
 
         <div className="col-12 ">

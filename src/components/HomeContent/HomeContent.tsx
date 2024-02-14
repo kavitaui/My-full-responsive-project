@@ -1,6 +1,5 @@
 import $ from 'jquery';
 import React, { useEffect, useState } from 'react';
-import { useSpring } from "react-spring";
 import IMAGES from './Content-img/HomeContentImages/Index';
 import "./HomeContent.css";
 import IconDisplay from './IconDisplay';

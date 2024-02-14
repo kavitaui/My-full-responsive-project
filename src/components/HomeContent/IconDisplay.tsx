@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-import { BiMobileAlt } from 'react-icons/bi'
-import { FiAward } from 'react-icons/fi'
-import { PiCloud } from 'react-icons/pi'
+import { BiMobileAlt } from 'react-icons/bi';
+import { FiAward } from 'react-icons/fi';
+import { PiCloud } from 'react-icons/pi';
 import {
-  RiEyeLine,
+  RiCustomerService2Fill, RiEarthLine, RiEyeLine,
   RiFingerprintLine,
-  RiLeafLine,
-  RiPieChart2Line,
+  RiLeafLine, RiMapPin2Line, RiPieChart2Line,
   RiSecurePaymentLine,
-  RiVipDiamondLine,
-} from 'react-icons/ri'
-import { SlCloudDownload } from 'react-icons/sl'
-import { TbStack2 } from 'react-icons/tb'
+  RiVipDiamondLine
+} from "react-icons/ri";
+import { SlCloudDownload } from 'react-icons/sl';
+import { TbStack2 } from 'react-icons/tb';
+import "./HomeContent.css";
 
 const IconDisplay = (props) => {
   const IconDisplay = (icontype: string) => {
@@ -39,6 +39,12 @@ const IconDisplay = (props) => {
         return <RiSecurePaymentLine />
       case 'RiPieChart2Line':
         return <RiPieChart2Line />
+      case 'RiCustomerService2Fill':
+        return <RiCustomerService2Fill />
+      case 'RiEarthLine':
+        return <RiEarthLine />
+      case 'RiMapPin2Line':
+        return <RiMapPin2Line />
 
       default:
         return null
@@ -103,9 +109,9 @@ const IconDisplay = (props) => {
         return (
           <div
             key={item.id}
-            className={`col-lg-3 col-xl-3 col-md-6 col-sm-6 ${props.design}  `}
+            className={`col-lg-3 col-xl-3 col-md-6 col-sm-6 ${props.design}`}
           >
-            <div className=" row boxes mb-5 justify-content-md-center">
+            <div className="row boxes mb-5 justify-content-md-center">
               <div className="icon ">
                 <div
                   className={`${item.imageClass} icon-size`}
@@ -122,6 +128,25 @@ const IconDisplay = (props) => {
               </div>
             </div>
           </div>
+        )
+      case 'my-design3':
+        return (
+      
+          <div className={'col-lg-4 col-md-6 col-12 '}>
+        
+            <div className='single-contact-info-box'>
+             
+              <div className='icon bg'>{IconDisplay(item.image)}</div>
+              <div >{item.phoneno1}
+              </div>
+             < div >{item.phoneno2}
+            </div>
+           </div>
+            </div> 
+       
+          
+        
+        
         )
       default:
         return ''
