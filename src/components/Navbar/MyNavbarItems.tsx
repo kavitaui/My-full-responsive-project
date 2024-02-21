@@ -217,7 +217,7 @@ export const MyNavBarItems = [
       {
         id: 1,
         title: 'Products List',
-        path: './Products List',
+        path:'/productlist',
       },
       {
         id: 2,
@@ -232,7 +232,7 @@ export const MyNavBarItems = [
       {
         id: 4,
         title: 'Product Detials',
-        path: './Product Detials',
+        path: '/ProductDetials',
       },
     ],
   },
@@ -245,7 +245,7 @@ export const MyNavBarItems = [
       {
         id: 1,
         title: 'Blog Grid',
-        path: './Blog Grid',
+        path: '/bloggrid',
       },
 
       {

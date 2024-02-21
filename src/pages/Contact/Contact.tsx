@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
 
   }
   const handleSubmit = (event: { preventDefault: () => void; }) => {
-    debugger;
+    // debugger;
     event.preventDefault();
     setErrors(validateValues(inputFields));
     setSubmitting(true)
@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
 
   }
   useEffect(() => {
-    debugger;
+    // debugger;
     if (Object.keys(errors).length === 0 && submitting) {
       finishSubmit();
       setInputFields({
@@ -114,10 +114,12 @@ const Contact: React.FC = () => {
 
 
   return (
-    <> <div className='page-title-area'>
+    <>  <Navbar color="red" logotype='blacklogo'  />
+      <div className='page-title-area'>
+     
         <div className='container'>
 
-          <Navbar color="red" />
+       
          <div className='page-title-content'>
           <h2>Contact Us</h2>
           <ul>
@@ -135,6 +137,11 @@ const Contact: React.FC = () => {
       </div>
       <div className='lines'>
         <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+
       </div>
      
 
@@ -152,7 +159,7 @@ const Contact: React.FC = () => {
       </div>
       <div className='contact-form'>
         <form onSubmit={handleSubmit}>
-          <div className='container'>
+          <div className='container '>
 
             <div className='col-12'>
               <div className='row form-content'>
@@ -191,25 +198,30 @@ const Contact: React.FC = () => {
 
 
               </div>
-              <div className='container'>
+              <div className='container form-area'>
                 <div className='col-12'>
                   <div className="form-group">
 
                     <textarea className="form-control1 img-fluid" id="exampleFormControlTextarea1" name="message" placeholder="Enter message" rows="10" onChange={handleChange} value={inputFields.message}></textarea>
 
                     {errors.message ? (<p className='error'>Please enter your Message</p>
-                    ) : null} </div>
+                    ) : null}
+                
+              
+             
+              <button type="submit" className="btn btn-primary trail-button img-fluid" data-toggle="button" aria-pressed="false"    > SendMesssage</button>
+              {message && (
+                <div className='pop-up'>
+                  <p>{message}</p>
                 </div>
-              </div>
-            </div>
-            <button type="submit" className="btn btn-primary trail-button" data-toggle="button" aria-pressed="false"   > SendMesssage</button>
-            {message && (
-              <div className='pop-up'>
-                <p>{message}</p>
-              </div>
-            )
+              )
 
-            }
+                }
+                </div>
+                </div>
+                </div>
+           </div>
+           
           </div>
 
         </form>
@@ -232,6 +244,7 @@ const Contact: React.FC = () => {
         </div>
       </div>
       <FooterDesign2 />
+   
 
     </>
   )

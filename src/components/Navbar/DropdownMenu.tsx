@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import './MyNavbarItems';
 import { MyNavBarItems } from './MyNavbarItems';
 import './Navbar.css';
-const DropdownMenu = () => {
+const DropdownMenu = (props) => {
+  // debugger;
   const [dropdownMenu, setDropDownMenu] = useState(-1)
   return (
     <div>
@@ -17,7 +18,7 @@ const DropdownMenu = () => {
             }}
           >
             <Link
-              className="nav-link dropdown-toggle"
+              className={`nav-link dropdown-toggle ${props.Dcolor}`}
               data-toggle="dropdown"
               role="button"
               aria-haspopup="true"
@@ -37,6 +38,7 @@ const DropdownMenu = () => {
                 ))}
               </div>
               )}</Link>
+           
           </li>
         ))}
       </ul>

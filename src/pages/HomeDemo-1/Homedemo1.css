@@ -1,0 +1,73 @@
+.navbar.sticky {
+    background: red;
+    position: sticky;
+    top: 0;
+}
+.banner-area{
+  
+    z-index:1;
+    position:relative;
+    padding-bottom:10px;
+}
+.container-fluid {
+    padding: 59px;
+    padding-right:57px;
+}
+
+
+.banner-area::before{
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    content: "";
+    height: 75%;
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Users/kavitapandey/create_react_2021/my-basic-project/vite-react-ts-eslint-prettier-editorconfig-master/src/pages/HomeDemo-1/homeDemo-imges/banner-shape1.png);
+}
+
+
+
+.align-items-center {
+    align-items: center !important;
+}
+.banner-shape {
+    position: absolute;
+    right: 28px;
+        top: 127px;
+    z-index: -1;
+}
+
+
+.banner-shape2 {
+    position: absolute;
+    right: 58px;
+        top: 386px;
+    z-index: -1;
+}
+.banner-shape3 {
+    position: absolute;
+    top: 386px;
+        right: 353px;
+    z-index: -1;
+}
+.banner-shape4 {
+    position: absolute;
+        top: 207px;
+    right: 480px;
+    z-index: -1;
+}
+
+
+.banner-shape5 {
+    position: absolute;
+    top: 530px;
+        left: 526px;
+}
+.feature-area{
+    background: white;
+
+}

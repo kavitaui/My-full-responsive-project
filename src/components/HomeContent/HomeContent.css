@@ -240,6 +240,21 @@ svg {
     margin-top: 17px;
     margin-left: 3px;
 }
+form.free-trail-from {
+    position: absolute;
+    width: 100p;
+    height: 51px;
+}
+
+
+button.btn.btn-primary.start.trail-button.icon-button.default-btn {
+    position: absolute;
+        top: 249px;
+        right: 182px;
+        border-radius: 5px;
+        height: 57px;
+        width: 145px;
+    }
 
 .icon-design1 .icon-size {
     height: 60px;
@@ -525,12 +540,43 @@ a.applestore-btn {
 }
 
 .software-itegrations-list ul li:nth-child(5) {
-    position: absolute;
+ 
 
     position: absolute;
     right: 136px;
     /* bottom: 53px; */
     top: 65px;
+}
+.software-itegrations-list ul li:nth-child(6) {
+    position: absolute;
+    right: 207px;
+    top: 198px;
+}
+.software-itegrations-list ul li{
+    position: absolute;
+    border-radius: 50%;
+        text-align: center;
+        transition: var(--transition);
+        background-color: white;
+        box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+            height: 100px;
+                width: 100px;
+}
+img.img-fluid.skype {
+    margin-left: 0px;
+ 
+    margin-top: 21px;
+}
+img.img-fluid.atlassian1 {
+    margin-right: 11px;
+    margin-top: 22px;
+}
+img.img-fluid.ddrive {
+    margin-top: 24px;
+    margin-right: 10px;
+}
+img.img-fluid.logoCentre{
+    margin-left: 1px;
 }
 
 .pricing-area.bg-gradient-color {
@@ -538,6 +584,7 @@ a.applestore-btn {
     overflow: hidden;
     z-index: 1;
 }
+
 
 .pricing-area.bg-gradient-color::before {
     position: absolute;
@@ -752,3 +799,34 @@ button.btn.btn-primary.start.trail-button.icon-button.default-btn{
  .icon.bg svg{
     margin-left:0;
  }
+
+
+
+h2.title {
+    margin-top: 87px;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+.IconDesign3.IconDesign3 .icon-size svg{
+    width: 54px;
+        height: 54px;
+        color: white;
+        margin-right: 16px;
+        margin-top: 20px;
+       
+}
+.IconDesign3 {
+    padding-left: 54px;
+}
+.IconDesign3 .icon-size{
+border-radius: 30px;
+}
+.blogContent {
+    padding: 36px;
+}
+.blogContent h3{
+    
+            font-size: 20px;
+            color: black;
+       
+}

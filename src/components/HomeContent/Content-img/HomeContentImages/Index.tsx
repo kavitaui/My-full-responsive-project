@@ -6,6 +6,8 @@ export { default as applestore } from './apple-store.png'
 export { default as altassian1 } from './atlassian1.png'
 export { default as banner1 } from './banner-app1.png'
 export { default as bgshape2 } from './bg-shape2.png'
+export { default as blacklogo } from './black-logo.png'
+export { default as frame } from './frame.png'
 export { default as gdrive } from './gdrive.png'
 export { default as jira } from './jira.png'
 export { default as logo1 } from './logo1.png'
@@ -65,6 +67,8 @@ const IMAGES = {
   user4: new URL('./user4.jpg', import.meta.url).href,
   shape7: new URL('./shape7.png', import.meta.url).href,
   logo2: new URL('./logo2.png', import.meta.url).href,
+  blacklogo: new URL('./black-logo.png', import.meta.url).href,
+  frame: new URL('./frame.png', import.meta.url).href,
 
 }
 export default IMAGES

@@ -41,6 +41,9 @@ const ImageAnimation = () => {
           <li data-aos="fade-up" className='aos-init aos-animate'>
             <img src={IMAGES.jira} alt="" className='img-fluid' />
           </li>
+          <li data-aos="fade-up" className='aos-init aos-animate'>
+            <img src={IMAGES.frame} alt="" className='img-fluid logoCentre' />
+          </li>
         </ul>
     
       </div>

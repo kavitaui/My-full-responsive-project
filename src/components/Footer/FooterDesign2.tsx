@@ -7,7 +7,7 @@ import { FaFacebookF, FaGithub } from "react-icons/fa6";
 import "./Footer.css";
 const Footer = () => {
     return (
-        <div className='footer-area'>
+        <div className='footer-area-design'>
             <div className='container'>
              
                     <div className='col-12'>
@@ -17,7 +17,7 @@ const Footer = () => {
                                 <a href="index.html" className='logo' >
                                     <img src={IMAGES.logo2} alt="" />
                                 </a>
-                                <p>Best solution for your it startup business, consecteturadipiscing elit. Scelerisque amet odio velit, auctor nam elit nulla.</p>
+                                <p className='footet-2para'>Best solution for your it startup business, consecteturadipiscing elit. Scelerisque amet odio velit, auctor nam elit nulla.</p>
                                 <ul className='social-links'>
                                     <li>
                                         <a href="#" target="_blank">
@@ -49,15 +49,79 @@ const Footer = () => {
                              </div>  
                         </div>
                         <div className='col-lg-2 col-md-6 col-sm-2'>
+                            <div className='single-footer-widget pl-2'>
+                                <h3>Company</h3>
+                                <ul className="link-list">
+                                    <li>
+                                        <a href="about-simple.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="featurs-2.html">Core Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html">Refund Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">FAQ's</a>
+                                    </li>
+                                    <li>
+                                        <a href="feedback.html">Reviews</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='col-lg-2 col-md-6 col-sm-2'>
+                            <div className='single-footer-widget pl-2'>
+                            <h3>Support</h3>
+                            <ul className="link-list">
+                                <li>
+                                    <a href="about-simple.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="featurs-2.html">Support</a>
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html">privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">FAQ's</a>
+                                </li>
+                                <li>
+                                    <a href="feedback.html">Contact</a>
+                                </li>
+                                </ul>
+                                </div>
 
                         </div>
                         <div className='col-lg-2 col-md-6 col-sm-2'>
-
-                        </div>
-                        <div className='col-lg-2 col-md-6 col-sm-2'>
+                            <div className='single-footer-widget pl-2'>
+                            <h3>Useful Links</h3>
+                                <ul className="link-list">
+                                <li>
+                                    <a href="about-simple.html">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="featurs-2.html">Return Policy</a>
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">How It Work?</a>
+                                </li>
+                                <li>
+                                    <a href="feedback.html">Contact Us</a>
+                                </li>
+                                </ul>
+                                </div>
 
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-6'>
+                            <div className='single-footer-widget pl-2'>
+                                <h3>Newsletter</h3>
+                                <p>Best solution for your it startup business, consecteturadipiscing elit.</p>
+                                </div>
+                            
 
                         </div>
                         

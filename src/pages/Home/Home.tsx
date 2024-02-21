@@ -3,6 +3,7 @@ import { memo, useEffect } from 'react'
 import Footer from 'components/Footer/Footer'
 import HomeContent from 'components/HomeContent/HomeContent'
 import Navbar from 'components/Navbar/Navbar'
+import 'components/Navbar/Navbar.css'
 import { useConfig } from 'config/config'
 import useTitle from 'hooks/useTitle'
 import React from 'react'
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
   const { app } = useConfig()
   const { t, i18n } = useTranslation()
   const setTitle = useTitle()
+ 
 
   useEffect(() => {
     setTitle(t('home.head-title'))
@@ -22,8 +24,9 @@ const Home: React.FC = () => {
     <>
  
       <div className="main-banner-area">
-        <Navbar color=""/>
-        <HomeContent />
+        <Navbar color="black" logotype='logo' />
+      
+      <HomeContent/>
         <Footer/>
       </div>
      

@@ -207,7 +207,99 @@ export const JSONContent = {
     },
     
     
-  ] 
+  ] ,
+  MyFeaturesArea: [
+    {
+      id: 1,
+      title: 'User Friendly',
+      imageClass: 'BiMobileAlt',
+      color: 'linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%)',
+      size: '70 % 30 % 30 % 70 % /60% 40% 60% 40%',
+
+    },
+    {
+      id: 2,
+      title: 'Award-Winning App',
+      imageClass: 'FiAward',
+      color: 'linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%)',
+      size: '70 % 30 % 30 % 70 % /60% 40% 60% 40%',
+
+    },
+    {
+      id: 3,
+      title: 'Privacy Protected',
+      imageClass: 'RiFingerprintLine',
+      color: 'linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%)',
+      size: '70 % 30 % 30 % 70 % /60% 40% 60% 40%',
+
+    },
+    {
+      id: 4,
+      title: 'Lifetime Update',
+      imageClass: 'RiVipDiamondLine',
+      color: 'linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%)',
+      size: '70 % 30 % 30 % 70 % /60% 40% 60% 40%',
+    },
+
+  ],
+  BlogPost: [
+    {
+    id: 1,
+    title: 'Branding',
+    image: "blog1",
+      subtitle:'Branding involves developing strategy to create a point of differentiation',
+    },
+    {
+      id: 2,
+      title: 'Agency',
+      image: "blog2",
+      subtitle: 'Design is a plan or specification for the construction of an object',
+    },
+    {
+      id: 3,
+      title: 'Marketing',
+      image: "blog3",
+      subtitle: 'The new minimum is a digital magazine with a header featuring a thin',
+    },
+    {
+      id: 4,
+      title: 'Branding',
+      image: "blog4",
+      subtitle: 'WordPress is open source software you can use to create a beautiful',
+    },
+    {
+      id: 5,
+      title: 'Agency',
+      image: "blog5",
+      subtitle: 'Bootstrap 5 is open source software you can use to create a beautiful',
+    },
+    {
+      id: 6,
+      title: 'Marketing',
+      image: "blog6",
+      subtitle: 'Branding involves developing strategy to create a point of differentiation',
+    },
+    {
+      id: 7,
+      title: 'Branding',
+      image: "blog7",
+      subtitle: 'Branding involves developing strategy to create a point of differentiation',
+    },
+    {
+      id: 8,
+      title: 'Agency',
+      image: "blog8",
+      subtitle: 'Most designs, powerful features, and the freedom to build anything you',
+    },
+    {
+      id: 9,
+      title: 'Marketing',
+      image: "blog9",
+      subtitle: 'Branding involves developing strategy to create a point',
+    },
+
+  ]
+
     
   
 

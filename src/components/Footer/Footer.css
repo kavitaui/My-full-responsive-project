@@ -79,4 +79,42 @@ hr{
 .copyright span:hover {
     color:#ED2775;
 }
+.footer-area-design{
+    background-color: black;
+        padding-top: 100px;
+        padding-bottom: 90px;
+}
+.footet-2para{
+    color:white;
+}
+element.style {}
+
+.single-footer-widget .links-list li {
+    margin-bottom: 12px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.single-footer-widget ul.link-list li a{
+  
+    list-style-type: none;
+        color: white;
+            text-decoration: none;
+}
+.single-footer-widget.pl-2 {
+    padding: 33px;
+    padding-top: 78px;
+}
+ul.link-list {
+    padding-left:14px;
+}
 

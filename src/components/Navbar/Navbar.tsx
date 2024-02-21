@@ -1,35 +1,69 @@
-import React, { useState } from 'react'
+import IMAGES from 'components/HomeContent/Content-img/HomeContentImages/Index'
+import React, { useEffect, useState } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 import DropdownMenu from './DropdownMenu'
-import IMAGES from './img/LandingPage-images/index'
 import './MyNavbarItems'
 import './Navbar.css'
 
-const Navbar = (props) => {
-  const [isVisible, setIsVisible] = useState(false)
-  return (
-    <><div className={`navbar-area is-sticky ${props.color}`}>
-      <div className="container pakap-nav">
 
+const Navbar = (props) => {
+
+  const [isVisible, setIsVisible] = useState(false)
+  const [showNavbar, setShowNavbar] = useState(false);
+  useEffect(() => {
+    window.onscroll = () => {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        setShowNavbar(true);
+
+      }
+      else {
+        setShowNavbar(false);
+      }
+    };
+    return () => {
+      window.onscroll = null;
+    };
+
+  }, [])
+
+  const logoImages = (image: string) => {
+    switch (image) {
+      case 'logo':
+        return IMAGES.logo1;
+      case 'blacklogo':
+          return IMAGES.blacklogo;
+      default:
+        return null;
+
+    }
+    
+  }
+
+
+
+
+return (
+  <>
+    <div className={`navbar ${showNavbar ? 'sticky' : ''} ${props.color}`}>
+      <div className="container pakap-nav">
         <div className="col-12 ">
           <div className="row justify-content-md-centre">
             <div className="navbar">
               <div className="col-md-6 col-6  col-lg-2 order-1 order-md-1 order-lg-1">
                 <div className="navbar-brand">
                   {' '}
-                  <img src={IMAGES.logo} alt="" />
+                  <img src={logoImages(props.logotype)} alt="" />
                 </div>
               </div>
               <div
-                className={` col-lg-8  order-3 order-md-3 order-lg-2  d-lg-block  ${
-                  !isVisible ? 'd-none' : ''
-                }`}
+                className={` col-lg-8  order-3 order-md-3 order-lg-2  d-lg-block  ${!isVisible ? 'd-none' : ''
+                  }`}
               >
                 <div className="navbar-component ">
                   <div className="container">
                     <div className="col-12">
                       <div className="row justify-content-md-centre">
-                        <DropdownMenu />
+                        <DropdownMenu Dcolor={props.color} />
                       </div>
                     </div>
                   </div>
@@ -65,9 +99,11 @@ const Navbar = (props) => {
           {/* <HomeContent /> */}
           {/* <div className="shape-overlay"></div> */}
         </div>
-      
+
       </div></div>
-    </>
-  )
+
+
+  </>
+)
 }
 export default Navbar
