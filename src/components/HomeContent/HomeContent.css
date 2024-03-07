@@ -121,10 +121,10 @@ svg {
     border-radius: 50%;
 }
 
-.ptb-100 {
+/* .ptb-100 {
     padding-top: 100px;
     padding-bottom: 100px;
-}
+} */
 
 
 
@@ -212,6 +212,7 @@ svg {
 .feature-area {
     background-color: #f7f7ff;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .feature-area span {
@@ -417,8 +418,7 @@ a.applestore-btn {
 }
 
 .ptb-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  
 }
 
 .section-title {
@@ -461,8 +461,8 @@ a.applestore-btn {
 }
 
 .software-integration-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+   margin-top:100px;
+margin-bottom:100px;
 }
 
 .software-integration-area .sub-title {
@@ -485,14 +485,22 @@ a.applestore-btn {
 }
 
 .my-mobile-img {
-    margin-top: 100px;
+    margin-top: 100px !important;
     position: relative;
-    opacity: 0.7;
+ 
+    left:-12px;
 }
 
 .software-itegrations-list {
-    margin-left: 15px;
     position: relative;
+        float: left;
+        width: 100%;
+        overflow: hidden;
+   
+}
+.software-itegrations-list img-fluid{
+        margin-top: 40px;
+            margin-left: -4px;
 }
 
 .aos-init {
@@ -677,7 +685,9 @@ img.img-fluid.logoCentre{
             z-index: 1;
 }
 .free-trail-area.pb-100{
-    padding:100px;
+    padding-top:100px;
+    padding-bottom:100px;
+    overflow: hidden;
 }
 .free-trail-content h2{
         font-size: 36px;
@@ -830,3 +840,41 @@ border-radius: 30px;
             color: black;
        
 }
+.feature-design .icon-size{
+   
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+}
+.col-lg-6.col-md-12.col-sm-12.feature-content {
+    /* margin-top: -95px; */
+    height: 450px;
+}
+.feture-title {
+    margin-top: 34px;
+  
+    font-size: 22px;
+    text-wrap: nowrap;
+}
+.feature-para{
+        color: #716c80;
+            font-size: 14px;
+            margin-bottom: 15px;
+            line-height: 1.8;
+            width:231px;
+}
+        .feature-design .icon-size svg{
+               vertical-align: middle;
+        margin-top: 16px;
+        margin-left: 17px;
+        size: 40px;
+        width: 31px;
+        height: 25px;
+        color:white;
+        }
+        .main-area{
+            overflow-x: hidden;
+        }
+        .software-integration-area .container{
+            overflow-x:hidden;
+        }

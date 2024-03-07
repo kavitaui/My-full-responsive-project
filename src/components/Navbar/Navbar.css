@@ -55,10 +55,10 @@ body {
     margin-left: 5px;
   }
 
-  .container {
+  /* .container {
     overflow-x: hidden;
     overflow-y: hidden;
-  }
+  } */
 
   .main-content {
     margin-top: 10px;
@@ -94,10 +94,10 @@ body {
 }
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
-  .container {
+  /* .container {
     max-width: 897px;
     overflow-x: hidden;
-  }
+  } */
 
   .sign-up-button {
     padding: 2px 9px;
@@ -174,7 +174,7 @@ body {
 
 }
 
-.navbar.sticky {
+.navbar1.sticky {
   top: 0;
   left: 0;
   width: 100%;
@@ -184,7 +184,7 @@ body {
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
-.navbar.sticky.orange{
+.navbar1.sticky.orange{
   background:white !important;
 }
 
@@ -207,7 +207,7 @@ body {
 
 }
 
-.navbar.red {
+.navbar1.red {
   background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
 }
 
@@ -222,4 +222,34 @@ a.nav-link.dropdown-toggle.orange {
 } */
 .container.pakap-nav .orange{
   margin-top: 0;
+}
+ .navbar1 .nav-item.megaMenu .dropdown-menu li.full-length{
+ 
+ 
+ 
+
+  background: white !important;
+  z-index: 99;
+  float: left;
+  display: flex !important;
+      padding: 17px;
+    margin-left: 108px;
+}
+
+.navbar1 .pakap-nav .nav .nav-item.megaMenu {
+  position: inherit;
+}
+ .navbar1  .nav-item.megaMenu .dropdown-menu{
+  position:absolute;
+  left:0;
+  width:100%;
+  top:62px
+}
+.navbar1 .nav-item.megaMenu .dropdown-menu li.full-length a ul li{
+  list-style-type: none;
+
+
+}
+.col-img{
+  width:200px;
 }

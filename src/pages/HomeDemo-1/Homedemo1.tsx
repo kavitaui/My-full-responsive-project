@@ -1,7 +1,7 @@
 import { memo, useEffect } from 'react'
 import React,{useState} from 'react';
 import { useConfig } from 'config/config'
-import { useTranslation } from 'react-i18next'
+import { useTranslation} from 'react-i18next'
 
 import useTitle from 'hooks/useTitle'
 import Navbar from 'components/Navbar/Navbar';
@@ -74,7 +74,36 @@ const Homedemo1: React.FC =() => {
                         </div>
                </div>
             </div>
-            
+            <div className='container features5' >
+                <div className='col-12'>
+                    < div className="row align-items-center">
+                     <div className='col-lg-6 col-md-12 col-sm-12'>
+                        <span className='sub-title'>KEY FEATURES</span>
+                         <h1>Most Probably Included Best Features Ever</h1>
+                        <p>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began.
+
+                            Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want chance its just began.</p>
+                         <button type="button" className="btn btn-primary start trail-button2" data-toggle="button" aria-pressed="false" autocomplete="off">
+                            Start Free Trail
+                         </button>
+                        <span>See All Features</span>
+                      </div>
+                        <div className='col-lg-6 col-md-12 col-sm-12 feature-content'>
+                       
+                            <div className='row content-width' >
+                               <IconDisplay data={JSONContent.MyFeatureItems2} design={'feature-design'} /></div>
+                                           
+                                       
+                    </div>
+                    </div>
+                </div>
+            </div>
+                        
+                
+                 
+        
+         
+
             
          
          

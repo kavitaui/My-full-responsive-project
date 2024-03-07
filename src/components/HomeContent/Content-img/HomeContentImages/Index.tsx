@@ -4,7 +4,6 @@ export { default as app2 } from './app-img2.png'
 export { default as app3 } from './app-img3.png'
 export { default as applestore } from './apple-store.png'
 export { default as altassian1 } from './atlassian1.png'
-export { default as banner1 } from './banner-app1.png'
 export { default as bgshape2 } from './bg-shape2.png'
 export { default as blacklogo } from './black-logo.png'
 export { default as frame } from './frame.png'
@@ -25,7 +24,6 @@ export { default as screenshots4 } from './screenshots4.png'
 export { default as screenshots5 } from './screenshots5.png'
 export { default as shape10 } from './shape10.png'
 export { default as shape2 } from './shape2.png'
-export { default as shape7 } from './shape7.png'
 export { default as skype } from './skype.png'
 export { default as slack } from './slack.png'
 export { default as user1 } from './user1.jpg'
@@ -35,8 +33,12 @@ export { default as user4 } from './user4.jpg'
 export { default as video } from './video-bg1.jpg'
 
 
+
+
+
+
 const IMAGES = {
-  banner1: new URL('./banner-app1.png', import.meta.url).href,
+ 
   shape10: new URL('./shape10.png', import.meta.url).href,
   partner1: new URL('./partner1.png', import.meta.url).href,
   partner2: new URL('./partner2.png', import.meta.url).href,
@@ -65,7 +67,7 @@ const IMAGES = {
   user2: new URL('./user2.jpg', import.meta.url).href,
   user3: new URL('./user3.jpg', import.meta.url).href,
   user4: new URL('./user4.jpg', import.meta.url).href,
-  shape7: new URL('./shape7.png', import.meta.url).href,
+
   logo2: new URL('./logo2.png', import.meta.url).href,
   blacklogo: new URL('./black-logo.png', import.meta.url).href,
   frame: new URL('./frame.png', import.meta.url).href,

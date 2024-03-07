@@ -228,10 +228,28 @@ const IconDisplay = (props: { design: string; data: unknown[]; }) => {
             
           </div>
         )
+      case 'feature-design':
+        return (
+       <div 
+            className={`col-6  ${props.design}`} key={item.id}>
+            <div className={` ${item.imageClass} icon-size`}
+              style={{ background: item.color }}>  {IconDisplay(item.imageClass)}</div>
+              <div className='feture-title'><h6>{item.title}</h6></div>
+              <div className='feature-para'>{item.subtitle }</div>
+            </div>
+          
+              
+            
+           
+   
+
+        )
        default:
         return ''
-      }
+    }
+    
   }
+
   
   return (
     <>{props?.data?.map((item: unknown) => getContent(props.design, item))}

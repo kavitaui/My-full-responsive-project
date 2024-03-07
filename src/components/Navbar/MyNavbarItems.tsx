@@ -3,7 +3,8 @@ export const MyNavBarItems = [
     id: 1,
     title: 'Home',
     path: '/',
-
+    design: '',
+    image:'',
     child: [
       {
         id: 1,
@@ -66,12 +67,19 @@ export const MyNavBarItems = [
     id: 2,
     title: 'About Us',
     path: '/about',
-
+    image: '',
     child: [
       {
         id: 1,
         title: 'About Simple',
         path: '/AboutSimple',
+        subchild: [
+          {
+            id: 1,
+            title: 'subchild Modern',
+            path: './About Modern',
+          },
+        ]
       },
       {
         id: 1,
@@ -89,130 +97,134 @@ export const MyNavBarItems = [
     id: 3,
     title: 'Pages',
     path: '/Pages',
-
-    child: [
+    design: "design",
+    image: 'bannerInNav.jpg',
+    
+    child:[
       {
+        id: 1,
+        title: 'pages I',
         subChild: [
           {
             id: 1,
-            title: 'pages I',
-
-            subChild1: [
-              {
-                id: 1,
-                title: 'Team 1',
-                path: './Team1',
-              },
-              {
-                id: 2,
-                title: 'Team 2',
-                path: './Team2',
-              },
-              {
-                id: 3,
-                title: 'How It Works',
-                path: './How It Works',
-              },
-              {
-                id: 4,
-                title: 'Gallery',
-                path: './Gallery',
-              },
-              {
-                id: 5,
-                title: 'Services',
-                path: './Services',
-              },
-              {
-                id: 6,
-                title: 'Pricing plan',
-                path: './Pricing plan',
-              },
-            ],
+            title: 'Team 1',
+            path: './Team1',
           },
           {
             id: 2,
-            title: 'pages-II',
-
-            subChild2: [
-              {
-                id: 1,
-                title: 'Reviews',
-                path: './Reviews',
-              },
-              {
-                id: 2,
-                title: 'Sign In',
-                path: './Sign In',
-              },
-              {
-                id: 3,
-                title: 'Sign Up',
-                path: './Sign Up',
-              },
-              {
-                id: 4,
-                title: 'Forget Password',
-                path: './Forget Password',
-              },
-              {
-                id: 5,
-                title: 'Privacy Policy',
-                path: './Privacy Policy',
-              },
-              {
-                id: 6,
-                title: 'Terms & Conditions',
-                path: './Terms & Conditions',
-              },
-            ],
+            title: 'Team 2',
+            path: './Team2',
           },
           {
             id: 3,
-            title: 'Pages III',
-
-            subChild3: [
-              {
-                id: 1,
-                tiltle: 'ScreenShots',
-                path: './ScreenShots',
-              },
-              {
-                id: 2,
-                tiltle: 'FAQ',
-                path: './FAQ',
-              },
-              {
-                id: 3,
-                tiltle: 'Coming Soon',
-                path: './Coming Soon',
-              },
-              {
-                id: 4,
-                tiltle: '404 Error Page',
-                path: './404 Error Page',
-              },
-              {
-                id: 5,
-                tiltle: 'App Download',
-                path: './App Download',
-              },
-              {
-                id: 6,
-                tiltle: 'Contact Us',
-                path: './Contact Us',
-              },
-            ],
+            title: 'How It Works',
+            path: './How It Works',
+          },
+          {
+            id: 4,
+            title: 'Gallery',
+            path: './Gallery',
+          },
+          {
+            id: 5,
+            title: 'Services',
+            path: './Services',
+          },
+          {
+            id: 6,
+            title: 'Pricing plan',
+            path: './Pricing plan',
           },
         ],
       },
+      {
+        id: 2,
+        title: 'pages-II',
+
+        subChild: [
+          {
+            id: 1,
+            title: 'Reviews',
+            path: './Reviews',
+          },
+          {
+            id: 2,
+            title: 'Sign In',
+            path: './Sign In',
+          },
+          {
+            id: 3,
+            title: 'Sign Up',
+            path: './Sign Up',
+          },
+          {
+            id: 4,
+            title: 'Forget Password',
+            path: './Forget Password',
+          },
+          {
+            id: 5,
+            title: 'Privacy Policy',
+            path: './Privacy Policy',
+          },
+          {
+            id: 6,
+            title: 'Terms & Conditions',
+            path: './Terms & Conditions',
+          }
+        ]
+      },
+      {
+        id: 3,
+        title: 'Pages III',
+
+        subChild: [
+          {
+            id: 1,
+            title: 'ScreenShots',
+            path: '/ScreenShots',
+          },
+          {
+            id: 2,
+            title: 'FAQ',
+            path: '/FAQ',
+          },
+          {
+            id: 3,
+            title: 'Coming Soon',
+            path: '/Coming Soon',
+          },
+          {
+            id: 4,
+            title: '404 Error Page',
+            path: '/404 Error Page',
+          },
+          {
+            id: 5,
+            title: 'App Download',
+            path: '/App Download',
+          },
+          {
+            id: 6,
+            title: 'Contact Us',
+            path: '/Contact Us',
+          },
+        ],
+      }
+      
+
+    
     ],
+    
+          
+    
   },
-  {
+  
+   {
     id: 4,
     title: 'Shop',
     path: '/Shop',
-
+    image: '',
     child: [
       {
         id: 1,
@@ -236,11 +248,11 @@ export const MyNavBarItems = [
       },
     ],
   },
-  {
+   {
     id: 5,
     title: 'Blog',
     path: '/Blog',
-
+     image: '',
     child: [
       {
         id: 1,
@@ -270,6 +282,8 @@ export const MyNavBarItems = [
     id: 6,
     title: 'Contact',
     path: '/contact',
+    image: '',
     child: [],
   },
+
 ]

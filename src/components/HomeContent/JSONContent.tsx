@@ -298,6 +298,36 @@ export const JSONContent = {
       subtitle: 'Branding involves developing strategy to create a point',
     },
 
+  ],
+  MyFeatureItems2: [
+    {
+      id: 1,
+      title: 'High Resolution',
+      subtitle:'Just log in with your mail account from play store and using whatever you want for your able business purpose.',
+      imageClass: 'RiEyeLine',
+      color:'linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%)',
+    },
+    {
+      id: 2,
+      title: 'Retina Ready Screen',
+      subtitle:'Just log in with your mail account from play store and using whatever you want for your able business purpose.',
+      imageClass: 'TbStack2',
+      color:'linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%)',
+    },
+    {
+      id: 3,
+      title: 'Cloud Storage',
+      subtitle:'Just log in with your mail account from play store and using whatever you want for your able business purpose.',
+      imageClass: 'PiCloud',
+      color:'linear-gradient(43.32deg, #6A55F8 14.73%, #CA48F6 86.35%, #CA48F6 86.35%)',
+    },
+    {
+      id: 4,
+      title: 'Easy Editable Data',
+      subtitle:'Just log in with your mail account from play store and using whatever you want for your able business purpose.',
+      imageClass:'RiLeafLine',
+      color:'linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%)',
+    },
   ]
 
     

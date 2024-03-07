@@ -32,45 +32,8 @@ const HomeContent = () => {
   return (
     <>
 
-      <div className="contianer main-container1" >
-        <div className="main-content">
-          <div className="col-12 justify-content-md-centre">
-          
-            <div className="row">
-              <div className="col-lg-8 col-md-12 main-content">
-                <div className='spiralAnimation shape5' >
-
-
-                  <img src={IMAGES.shape7} alt="" className='spiral' />
-                </div>
-                <button type="button" className="btn btn-primary trail-button" data-toggle="button" aria-pressed="false" autocomplete="off">
-                  #Get your 14 days free trail
-                </button>
-              
-                <div className="content"><h1>The Revolutionary App That
-                  Makes Your Life Easier Than Others Apps</h1></div>
-                <button type="button" className="btn btn-primary start trail-button" data-toggle="button" aria-pressed="false" autocomplete="off">
-                  Start Free Trail
-                </button>
-                <div className="trusted-by">
-                  <div className="row  justify-content-center ">
-                    <div className="col-lg-2 col-md-12 ">Trusted by:</div>
-                    <div className="col-lg-10 col-md-12">  <ImageCarousel data="" scrollImages="partenerImages" /></div>
-                  </div>
-                </div>
-                <div className="shape-overlay">
-                
-                </div>
-               
-              </div>
-              <div className="col-lg-4 col-md-12 app">
-
-                <img src={IMAGES.banner1} className='my-mobile-img img-fluid' />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     
+      
       <div >
         <div className='container jystify-content-md-center '>
           <div className='col-12 friendly-icons'>
@@ -83,8 +46,8 @@ const HomeContent = () => {
 
       </div>
 
-      <div className="col-12">
-        <div className="row justify-content-md-center">
+      <div className="container">
+        <div className="row justify-content-md-center video1">
           <div className="col-lg-12 col-md-12 col-12   img-fluid ">
             <img src={IMAGES.video} alt='' className='video' />
           </div>
@@ -230,7 +193,7 @@ const HomeContent = () => {
                 </button>
               </div>
             </div>
-            <div className='col-lg-6 clo-md-12'>
+            <div className='col-lg-6 col-md-12 img-fluid'>
               <ImageAnimation />
 
             </div>
@@ -328,7 +291,7 @@ const HomeContent = () => {
         </div>
       </div>
       <div className='free-trail-area pb-100'>
-        <div className='contianer'>
+        <div className='container'>
           <div className='free-trail-content'>
             <span className='sub-title'>
               FREE TRIAL
@@ -349,7 +312,7 @@ const HomeContent = () => {
             <div className='spiralAnimation shape8' >
              
           
-              <img src={IMAGES.shape7} alt=""  className='spiral' />
+              {/* <img src={IMAGES.shape7} alt=""  className='spiral' /> */}
             </div>
              </div>
           

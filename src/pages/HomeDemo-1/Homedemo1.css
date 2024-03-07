@@ -11,7 +11,7 @@
 }
 .container-fluid {
     padding: 59px;
-    padding-right:57px;
+  
 }
 
 
@@ -70,4 +70,26 @@
 .feature-area{
     background: white;
 
+}
+.container.features5{
+   
+        margin-top: 300px;
+}
+.feture-images{
+    padding-top:10px;
+}
+.content-width
+{
+   height:272px; 
+}
+.features5 .sub-title{
+display: block;
+margin-bottom: 10px;
+color:#ED2775;
+
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+button.btn.btn-primary.start.trail-button2{
+    background:linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
 }

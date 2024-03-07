@@ -44,7 +44,7 @@ const Navbar = (props) => {
 
 return (
   <>
-    <div className={`navbar ${showNavbar ? 'sticky' : ''} ${props.color}`}>
+    <div className={`navbar1 ${showNavbar ? 'sticky' : ''} ${props.color}`}>
       <div className="container pakap-nav">
         <div className="col-12 ">
           <div className="row justify-content-md-centre">
@@ -64,6 +64,7 @@ return (
                     <div className="col-12">
                       <div className="row justify-content-md-centre">
                         <DropdownMenu Dcolor={props.color} />
+                       
                       </div>
                     </div>
                   </div>
@@ -101,6 +102,7 @@ return (
         </div>
 
       </div></div>
+    
 
 
   </>
