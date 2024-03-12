@@ -11,7 +11,7 @@
 }
 .container-fluid {
     padding: 59px;
-  
+  position:relative;
 }
 
 
@@ -21,7 +21,7 @@
     z-index: -1;
     width: 100%;
     content: "";
-    height: 75%;
+    height: 100%;
     position: absolute;
     background-position: center center;
     background-repeat: no-repeat;
@@ -92,4 +92,18 @@ color:#ED2775;
 }
 button.btn.btn-primary.start.trail-button2{
     background:linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+}
+.my-downward-image{
+    height:500px;
+    width:500px;
+    position:absolute;
+    top:-15px;
+  
+    
+}
+.banner-content {
+    margin-top: 59px;
+}
+.feature-area1.pb-75 {
+    margin-top: 116px;
 }

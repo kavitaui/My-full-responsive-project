@@ -213,6 +213,7 @@ svg {
     background-color: #f7f7ff;
     text-align: center;
     overflow-x: hidden;
+    padding-right:53px;
 }
 
 .feature-area span {
@@ -464,6 +465,13 @@ a.applestore-btn {
    margin-top:100px;
 margin-bottom:100px;
 }
+.main-pic{
+    margin-left:0;
+}
+.main-progrss-img{
+  margin-top:0;
+  margin-left:0;  
+}
 
 .software-integration-area .sub-title {
     display: block;
@@ -476,6 +484,9 @@ margin-bottom:100px;
     margin-bottom: 0;
     font-size: 36px;
 }
+.app{
+    margin-top:128px;
+}
 
 .software-integration-area p {
     color: #716c80;
@@ -485,7 +496,7 @@ margin-bottom:100px;
 }
 
 .my-mobile-img {
-    margin-top: 100px !important;
+    margin-top: 100px;
     position: relative;
  
     left:-12px;
@@ -678,10 +689,13 @@ img.img-fluid.logoCentre{
             font-weight: 600;
 
 }
+.mobile-images{
+    margin-left: 10px;
+}
 .free-trail-content{
         text-align: center;
             position: relative;
-            padding: 100px;
+         height:326px;
             z-index: 1;
 }
 .free-trail-area.pb-100{

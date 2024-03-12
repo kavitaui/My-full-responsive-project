@@ -25,7 +25,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     $(".my-mobile-img").animate({
       'margin-top': '-50px',
-      'opacity': 1,
+      'opacity': '1',
     }, 2000);
 
 
@@ -75,7 +75,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className="col-lg-4 col-md-12 app">
 
-                  <img src={IMAGESH.banner1} className='my-mobile-img img-fluid' />
+              <img src={IMAGESH.banner1} className='my-mobile-img img-fluid' />
                 </div>
               </div>
             

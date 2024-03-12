@@ -1,15 +1,16 @@
-import { memo, useEffect } from 'react'
-import React,{useState} from 'react';
-import { useConfig } from 'config/config'
-import { useTranslation} from 'react-i18next'
-
-import useTitle from 'hooks/useTitle'
+import AppProgress from 'components/HomeContent/AppProgress';
+import 'components/HomeContent/HomeContent.css';
+import IconDisplay from 'components/HomeContent/IconDisplay';
+import { JSONContent } from 'components/HomeContent/JSONContent';
 import Navbar from 'components/Navbar/Navbar';
 import 'components/Navbar/Navbar.css';
+import { useConfig } from 'config/config';
+import useTitle from 'hooks/useTitle';
+import $ from 'jquery';
+import React, { memo, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import IMAGES2 from './homeDemo-imges/index';
 import './Homedemo1.css';
-import { JSONContent } from 'components/HomeContent/JSONContent';
-import IconDisplay from 'components/HomeContent/IconDisplay';
 
 
 const Homedemo1: React.FC =() => {
@@ -23,6 +24,20 @@ const Homedemo1: React.FC =() => {
         setTitle(t('home.head-title'))
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [i18n.resolvedLanguage])
+    useEffect(() => {
+        $(".my-downward-image").animate({
+            'margin-top': '100px',
+            'opacity':1,
+           
+           
+           
+       
+        }, 1000);
+
+    //     AOS.init({
+    //         duration: 1000,  // Animation duration in milliseconds
+    //     });
+     },[])
 
     return (
         <>
@@ -44,10 +59,13 @@ const Homedemo1: React.FC =() => {
                                 </button></a>
                            </div>
                         </div>
-                        <div className='col-lg-6 col-md-12 p-0'>
-                           <img src ={IMAGES2.bannerapp2}  alt="" className='img-fluid'/>
+                      
+                        <div className='col-lg-6 col-md-12 p-0  '>
+                            {/* <div className='img-fluid  aos-init aos-animate' data-aos="fade-down"></div> */}
+                            <img src={IMAGES2.bannerapp2} alt="" className='my-downward-image '  />
                         </div>
-                    </div>
+                        </div>
+                  
                 </div>
                 <div className='banner-shape'>
                     <img src={IMAGES2.shape2} alt="" />
@@ -65,7 +83,7 @@ const Homedemo1: React.FC =() => {
                     <img src={IMAGES2.shape19} alt="" />
                 </div> 
             </div> 
-            <div className='feature-area pb-75'>
+            <div className='feature-area1 pb-75'>
                 <div className='container' >
                     <div className='col-12'>
                     <div className='row justify-content-center'>
@@ -99,7 +117,7 @@ const Homedemo1: React.FC =() => {
                 </div>
             </div>
                         
-                
+            <AppProgress/>    
                  
         
          

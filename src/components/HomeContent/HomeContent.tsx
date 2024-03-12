@@ -1,5 +1,4 @@
-import $ from 'jquery';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import IMAGES from './Content-img/HomeContentImages/Index';
 import "./HomeContent.css";
 import IconDisplay from './IconDisplay';
@@ -13,14 +12,14 @@ const HomeContent = () => {
     setimageAnimation(!imageAnimation);
   }
 
-  useEffect(() => {
-    $(".my-mobile-img").animate({
-      'margin-top': '-50px',
-      'opacity': 1,
-    }, 2000);
+  // useEffect(() => {
+  //   $(".my-mobile-img").animate({
+  //     'margin-top': '-50px',
+  //     'opacity': 1,
+  //   }, 2000);
 
 
-  }, [])
+  // }, [])
  
 
    
@@ -32,6 +31,7 @@ const HomeContent = () => {
   return (
     <>
 
+     
      
       
       <div >
@@ -116,7 +116,7 @@ const HomeContent = () => {
           <div className='row align-items-center'>
             <div className='col-lg-6 col-md-12 '>
               <div className='app-progress-img text-center'>
-                <img src={IMAGES.app2} alt="" className='img-fluid' />
+                <img src={IMAGES.app2} alt="" className='img-fluid main-progrss-img'  />
               </div>
             </div>
             <div className='col-lg-6 col-md-12 '>
@@ -155,7 +155,7 @@ const HomeContent = () => {
                 </div>
               </div>
               <div className='col-lg-6 col-md-12'>
-                <img src={IMAGES.app3} alt="" className='img-fluid' />
+                <img src={IMAGES.app3} alt="" className='img-fluid mobile-images' />
               </div>
             </div>
           </div>
@@ -194,7 +194,7 @@ const HomeContent = () => {
               </div>
             </div>
             <div className='col-lg-6 col-md-12 img-fluid'>
-              <ImageAnimation />
+              <ImageAnimation SlideImages={'myscrollImages'} data={undefined}  />
 
             </div>
 

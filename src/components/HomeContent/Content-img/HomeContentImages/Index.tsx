@@ -1,7 +1,13 @@
 
+
+
 export { default as app } from './app-img1.png'
 export { default as app2 } from './app-img2.png'
 export { default as app3 } from './app-img3.png'
+export { default as appprogress1 } from './app-progress1.png'
+export { default as appprogress2 } from './app-progress2.png'
+export { default as appprogress3 } from './app-progress3.png'
+export { default as appprogress4 } from './app-progress4.png'
 export { default as applestore } from './apple-store.png'
 export { default as altassian1 } from './atlassian1.png'
 export { default as bgshape2 } from './bg-shape2.png'
@@ -31,8 +37,6 @@ export { default as user2 } from './user2.jpg'
 export { default as user3 } from './user3.jpg'
 export { default as user4 } from './user4.jpg'
 export { default as video } from './video-bg1.jpg'
-
-
 
 
 
@@ -71,6 +75,9 @@ const IMAGES = {
   logo2: new URL('./logo2.png', import.meta.url).href,
   blacklogo: new URL('./black-logo.png', import.meta.url).href,
   frame: new URL('./frame.png', import.meta.url).href,
-
+  appprogress1: new URL('./app-progress1.png', import.meta.url).href,
+  appprogress2: new URL('./app-progress2.png', import.meta.url).href,
+  appprogress3: new URL('./app-progress3.png', import.meta.url).href,
+  appprogress4: new URL('./app-progress4.png', import.meta.url).href,
 }
 export default IMAGES

@@ -29,6 +29,7 @@ const ProductList: React.FC = () => {
         <div>
             <Navbar color='red' />
             <HeaderBase />
+            
             <Footer/>
         </div>
     )

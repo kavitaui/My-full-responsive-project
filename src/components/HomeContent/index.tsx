@@ -1,1 +1,3 @@
-export { default } from './HomeContent'
+
+export { default } from './HomeContent';
+
