@@ -29,7 +29,17 @@ const ProductList: React.FC = () => {
         <div>
             <Navbar color='red' />
             <HeaderBase />
-            
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-lg-6 col-md-6 col-sm-12'>
+                        <p>We found 6 products available for you</p>
+                    </div>
+                    <div className='col-lg-6 col-md-6 col-sm-12'>
+                        
+                        </div>
+
+                </div>   
+            </div>
             <Footer/>
         </div>
     )

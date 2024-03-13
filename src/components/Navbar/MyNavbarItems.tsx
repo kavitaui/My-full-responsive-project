@@ -98,7 +98,7 @@ export const MyNavBarItems = [
     title: 'Pages',
     path: '/Pages',
     design: "design",
-    image: 'bannerInNav.jpg',
+    image: 'navbar.jpg',
     
     child:[
       {

@@ -65,7 +65,7 @@
 .banner-shape5 {
     position: absolute;
     top: 530px;
-        left: 526px;
+        left: 479px;
 }
 .feature-area{
     background: white;
@@ -96,7 +96,7 @@ button.btn.btn-primary.start.trail-button2{
 .my-downward-image{
     height:500px;
     width:500px;
-    position:absolute;
+    /* position:absolute; */
     top:-15px;
   
     
@@ -106,4 +106,7 @@ button.btn.btn-primary.start.trail-button2{
 }
 .feature-area1.pb-75 {
     margin-top: 116px;
+}
+.intro-video{
+    margin-top:100px;
 }

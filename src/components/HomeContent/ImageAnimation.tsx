@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import $ from 'jquery';
 import React, { useEffect } from 'react';
 import IMAGES from './Content-img/HomeContentImages/Index';
+import './HomeContent.css';
 const ImageAnimation = (props: { data: unknown, SlideImages: string }) => {
   useEffect(() => {
 
@@ -51,17 +52,17 @@ const ImageAnimation = (props: { data: unknown, SlideImages: string }) => {
           </div>
         </div>
       case "slidedata":
-        return <div>
+        return <div className='Animate-images'>
        
            
-              <img src={IMAGES.appprogress1} alt="" data-aos="fade-down" className='aos-init aos-animate' />
+              <img src={IMAGES.appprogress1} alt="" data-aos="fade-down" className='aos-init aos-animate img-fluid' />
         
             
-              <img src={IMAGES.appprogress2} alt="" data-aos="fade-right" className='aos-init aos-animate' />
+              <img src={IMAGES.appprogress2} alt="" data-aos="fade-right" className='aos-init aos-animate img-fluid' />
         
-              <img src={IMAGES.appprogress4} alt="" data-aos="fade-up" className='aos-init aos-animate' />
+              <img src={IMAGES.appprogress4} alt="" data-aos="fade-up" className='aos-init aos-animate img-fluid' />
        
-              <img src={IMAGES.appprogress3} alt="" data-aos="fade-left" className='aos-init aos-animate' />
+              <img src={IMAGES.appprogress3} alt="" data-aos="fade-left" className='aos-init aos-animate img-fluid' />
         
         </div>
         

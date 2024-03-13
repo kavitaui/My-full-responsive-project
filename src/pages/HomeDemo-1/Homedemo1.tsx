@@ -2,6 +2,7 @@ import AppProgress from 'components/HomeContent/AppProgress';
 import 'components/HomeContent/HomeContent.css';
 import IconDisplay from 'components/HomeContent/IconDisplay';
 import { JSONContent } from 'components/HomeContent/JSONContent';
+import { SoftwareIntegrationArea } from 'components/HomeContent/SoftwareIntegrationArea';
 import Navbar from 'components/Navbar/Navbar';
 import 'components/Navbar/Navbar.css';
 import { useConfig } from 'config/config';
@@ -44,9 +45,10 @@ const Homedemo1: React.FC =() => {
            
             <div className='banner-area'>
                 <Navbar color='orange' color1='white' logotype='blacklogo' />
-                <div className='container-fluid'>
-                    <div className='row align-items-center m-0'>
-                        <div className='col-lg-6 col-md-12 p-0'>
+                <div className='container'>
+
+                    <div className='row '>
+                        <div className='col-lg-6 col-md-12 '>
                             <div className='banner-content' >
                                 <span className='sub-title' >
                                     Get your 14 days free trail
@@ -60,29 +62,29 @@ const Homedemo1: React.FC =() => {
                            </div>
                         </div>
                       
-                        <div className='col-lg-6 col-md-12 p-0  '>
+                        <div className='col-lg-6 col-md-12   '>
                             {/* <div className='img-fluid  aos-init aos-animate' data-aos="fade-down"></div> */}
                             <img src={IMAGES2.bannerapp2} alt="" className='my-downward-image '  />
-                        </div>
-                        </div>
-                  
-                </div>
-                <div className='banner-shape'>
-                    <img src={IMAGES2.shape2} alt="" />
-                </div>
-                <div className='banner-shape2'>
-                    <img src={IMAGES2.shape11} alt="" />
-                </div>
-                <div className='banner-shape3'>
-                    <img src={IMAGES2.shape11} alt="" />
-                </div>
-                <div className='banner-shape4'>
-                    <img src={IMAGES2.shape16} alt="" />
-                </div>
-                <div className='banner-shape5'>
-                    <img src={IMAGES2.shape19} alt="" />
+                            <img src={IMAGES2.shape2} alt="" className='banner-shape' />
+
+
+                            <img src={IMAGES2.shape11} alt="" className='banner-shape2' />
+
+
+                            <img src={IMAGES2.shape11} alt="" className='banner-shape3' />
+
+
+                            <img src={IMAGES2.shape16} alt="" className='banner-shape4' />
+
+
+                            <img src={IMAGES2.shape19} alt="" className='banner-shape5' />
+                    </div>
+                          
+                          
                 </div> 
             </div> 
+                        </div>
+                  
             <div className='feature-area1 pb-75'>
                 <div className='container' >
                     <div className='col-12'>
@@ -117,7 +119,35 @@ const Homedemo1: React.FC =() => {
                 </div>
             </div>
                         
-            <AppProgress/>    
+            <AppProgress /> 
+            <div className='container intro-video'>
+                <div className='row'>
+                    <div className='col-lg-6 col-md-12'>
+                        <p>INTRO VIDEO</p>
+                        <h2>Watch Our Most Watched Pakap App Video</h2>
+                        <p>Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began. Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text.Never missyour chance its just began.</p>
+                        <button type="button" className="btn btn-primary trail-button" data-toggle="button" aria-pressed="false" autocomplete="off"> Start Free Trail</button>
+                    </div>
+                    <div className='col-lg-6 col-md-12'>
+                       <img src={IMAGES2.videoimg1}  alt="" className='img-fluid'/>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div className='container'>
+                <div className='title'>
+                    <span>APP SCREENS</span> 
+                    <h2>Beautifully Crafted All App Screenshots
+                    </h2>
+                    </div>
+                    <div>  <img src={IMAGES2.screen1} alt="" className='img-fluid' /></div>
+                
+               
+                
+            </div>
+            <SoftwareIntegrationArea/>
                  
         
          

@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import IMAGES from './Content-img/HomeContentImages/Index';
 import "./HomeContent.css";
 import IconDisplay from './IconDisplay';
-import ImageAnimation from './ImageAnimation';
 import ImageCarousel from './ImageCarousel';
 import { JSONContent } from './JSONContent';
+import { SoftwareIntegrationArea } from './SoftwareIntegrationArea';
 
 const HomeContent = () => {
   const [imageAnimation, setimageAnimation] = useState(false);
@@ -176,7 +176,7 @@ const HomeContent = () => {
         </div>
 
       </div>
-      <div className='software-integration-area ptb-100'>
+      {/* <div className='software-integration-area ptb-100'>
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-6 col-md-12'>
@@ -201,7 +201,8 @@ const HomeContent = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
+      <SoftwareIntegrationArea/>
       <div className='pricing-area bg-gradient-color ptb-100'>
         <div className='container'>
           <div className='pricing-tabs'>
