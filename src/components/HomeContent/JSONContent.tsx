@@ -328,6 +328,43 @@ export const JSONContent = {
       imageClass:'RiLeafLine',
       color:'linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%)',
     },
+   
+  ],
+  ReviewCountArea: [
+    {
+      id: 1,
+      imageClass:'FiDownload',
+      title: 'Total Downloads',
+      review: '10M',
+      color:'linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%)',
+      
+    },
+    {
+      id: 2,
+      imageClass:'GoStarFill',
+      title: 'Total Reviews',
+      review: '799K',
+      color: 'linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%)',
+
+    },
+    {
+      id: 3,
+      imageClass:'AiOutlineGlobal',
+      title: 'Worldwide Countries',
+      review: '150+',
+      color: 'linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%)',
+
+    },
+    {
+      id: 4,
+      imageClass:'RiMapPinUserLine',
+      title: 'Active Users',
+      review: '5M',
+      color:'linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%)',
+
+    },
+
+
   ]
 
     

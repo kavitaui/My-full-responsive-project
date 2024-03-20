@@ -2,12 +2,15 @@ import React from 'react';
 
 import IMAGES3 from 'pages/BlogGrid/BlogGridImages/index';
 import { BiMobileAlt } from 'react-icons/bi';
-import { FiAward } from 'react-icons/fi';
-import { PiCloud } from 'react-icons/pi';
+import { FiAward, FiDownload } from 'react-icons/fi';
+
+import { AiOutlineGlobal } from "react-icons/ai";
+import { GoStarFill } from "react-icons/go";
+import { PiCloud } from "react-icons/pi";
 import {
   RiCustomerService2Fill, RiEarthLine, RiEyeLine,
   RiFingerprintLine,
-  RiLeafLine, RiMapPin2Line, RiPieChart2Line,
+  RiLeafLine, RiMapPin2Line, RiMapPinUserLine, RiPieChart2Line,
   RiSecurePaymentLine,
   RiVipDiamondLine
 } from "react-icons/ri";
@@ -47,6 +50,7 @@ const IconDisplay = (props: { design: string; data: unknown[]; }) => {
         return <RiEarthLine />
       case 'RiMapPin2Line':
         return <RiMapPin2Line />
+     
 
 
       default:
@@ -76,11 +80,28 @@ const IconDisplay = (props: { design: string; data: unknown[]; }) => {
       default:
         return null;
     }
+  }
+    const CountImages = (contentType: string )=> {
+      switch (contentType) {
+        case 'FiDownload':
+          return <FiDownload />
+        case 'GoStarFill':
+          return <GoStarFill />
+        case 'AiOutlineGlobal':
+          return <AiOutlineGlobal />
+        case 'RiMapPinUserLine':
+          return <RiMapPinUserLine />
+        
+        default:
+          return null;
+     
+   }
 
 
   }
 
   const getContent = (contentType: string, item: unknown) => {
+   
     switch (contentType) {
       case 'icon-design1':
         return (
@@ -237,18 +258,29 @@ const IconDisplay = (props: { design: string; data: unknown[]; }) => {
               <div className='feture-title'><h6>{item.title}</h6></div>
               <div className='feature-para'>{item.subtitle }</div>
             </div>
-          
-              
-            
+       
+        )
+      case 'reviewDesign':
+        return (
+         
+          <div className={`col-lg-3 col-md-6 col-12 bg-color1`} key={item.id} style={{ background: `${item.color}` }}>
+            <div className={`${item.imageClass} icon-size1`} >
+              {CountImages(item.imageClass)} </div>
+              <div  className='count-title'> {item.title}</div>
+              <div className='count-review'>{item.review}</div>
            
-   
+            
 
+
+         </div>
         )
        default:
         return ''
     }
+     
     
   }
+ 
 
   
   return (

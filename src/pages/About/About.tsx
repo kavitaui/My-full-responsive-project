@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next'
 
 import Footer from 'components/Footer/Footer'
 import { HeaderBase } from 'components/HeaderBase/HeaderBase'
+import IconDisplay from 'components/HomeContent/IconDisplay'
+import { JSONContent } from 'components/HomeContent/JSONContent'
 import Navbar from 'components/Navbar/Navbar'
 import useTitle from 'hooks/useTitle'
 import React from 'react'
@@ -57,6 +59,14 @@ const About: React.FC = () => {
         </div>
       </div>
     </div>
+    <div className='container'>
+      <div className='row  '>
+      
+          <IconDisplay data={JSONContent.ReviewCountArea} design='reviewDesign' />
+       
+      </div>
+    </div>
+  
   
   
     <Footer/>

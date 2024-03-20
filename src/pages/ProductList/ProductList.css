@@ -1,0 +1,38 @@
+.pakap-grid-sorting .ordering {
+    text-align: end;
+}
+
+.pakap-grid-sorting {
+    margin-bottom: 30px;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.pakap-grid-sorting .ordering select {
+    display: inline-block;
+    height: 45px;
+    width: 215px;
+    cursor: pointer;
+    line-height: 45px;
+    box-shadow: unset;
+    padding: 0 0 0 15px;
+    border-color: #eeeeee;
+    color: black;
+    background-color: #f8f8f8;
+    transition: .5sec;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.pakap-grid-sorting .ordering label{
+    color:#716c80;
+        display: inline-block;
+            font-weight: 500;
+            margin-right: 5px;
+}
+.number{
+    font-weight: 700;
+    color:black;
+}

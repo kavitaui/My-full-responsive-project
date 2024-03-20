@@ -982,3 +982,27 @@ h2.title {
   img.aos-init.img-fluid.aos-animate {
       margin-left: -70px;
   }
+  .bg-color1 {
+      padding-left: 67px;
+      padding-bottom: 45px;
+      margin: 10px;
+      width: 23%;
+  }
+  .icon-size1 {
+      margin-top: 19px;
+      margin-bottom: 10px;
+      color: white;
+      font-size: 35px;
+    margin-left: 11px;
+  }
+  .count-title {
+      line-height: 1;
+      font-size: 18px;
+      color: white;
+  }
+  .count-review {
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+        margin-left: 5px;
+  }
